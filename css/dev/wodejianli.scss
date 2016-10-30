@@ -1,0 +1,254 @@
+@import 'base';
+.zhezhao{
+	width:1920px;
+	height:4800px;
+	background:#000;
+	.jianli-first{
+	    width: 957px;
+	    height: 831px;
+	    @include lr;
+	    top:450px;
+	.myjianli{
+	    @include lr;
+	     z-index: 3;
+	     width: 318px;
+	     height: 189px;
+	     background: url(../img/wodejianlitu/jl.png); 
+	     box-shadow:0px 2px #A2B8BE;  
+	    }
+	.jlxiangqing{
+	    position: absolute;
+	    width: 954px;
+	    height: 640px;
+	    background: #EFEFEF;
+	    top:107px;
+	    z-index: 2;
+	 .jl3box{
+	     @include lr;
+	     top:123px;
+	     width:855px;
+	     height: 324px;
+	  .three1pic{
+	      width: 268px;
+	      height: 324px;
+	      float: left;
+	   .xhao{
+	       position:absolute;
+	       left:-13px;
+	       top:-13px;
+	       z-index: 5;
+	   }
+	   .three1picwz{
+	       position: absolute;
+	       left:0;
+	       top:267px;
+	       width: 268px;
+	       height: 56px;
+	       background: #000;
+	       opacity: 0.5;
+	       line-height: 56px;
+	   p{
+	       text-align: center;
+	       color:#fff;
+	       font-size: 20px;
+	   }
+	   }
+	  }
+	  .three2pic{
+	      width: 268px;
+          height: 324px;
+          float: left;
+          margin-left: 25px;
+          margin-right: 25px;
+      .xhao{
+           position:absolute;
+           left:-13px;
+           top:-13px;
+           z-index: 5;
+       }
+      }
+      .three3pic{
+          width: 268px;
+          height: 324px;
+          float: left;
+          background: #10C8F0;
+       .jiay{
+           width: 14px;
+           height: 102px;
+           background: #fff;
+           @include  center;
+       }
+       .jiax{
+           width: 102px;
+           height: 14px;
+           background: #fff;
+           @include  center;
+       }
+      }
+	 }
+	.box3name{
+	     @include lr;
+         top:471px;
+         width:855px;
+         height:78px;
+    .box3name1{
+        float: left;
+        margin-left:50px;
+    }
+    .box3name2{
+        float: left;
+        margin-left:140px;
+    }
+    .box3name3{
+        float: left;
+        margin-left:140px;
+    }
+	}
+	.save{
+	    @include lr;
+        top:545px;
+        width:855px;
+        height:78px;
+        text-align: center;
+	}
+	}
+	.fcircle{
+	    width: 431px;
+	    height: 78px;
+	    background: url(../img/wodejianlitu/fcircle.png);
+	    position: absolute;
+	    left:104px;
+	    top:745px;
+	}
+	.jlpages{
+	    width: 305px;
+	    height:108px;
+	    position: absolute;
+        left:533px;
+        top:745px;
+        background: url(../img/wodejianlitu/jlpages.png);
+	}
+	}
+	.jianli-two{
+	   width: 957px;
+       height: 742px;
+       @include lr;
+       top:1330px;
+//	   background: red;
+    .jllianxi{
+       @include lr;
+       z-index: 3;
+       width: 176px;
+       height: 169px;
+       background: url(../img/wodejianlitu/xin.png)no-repeat; 
+    }
+    .toujianji{
+       position: absolute;
+       width: 954px;
+       height: 565px;
+       background: #EFEFEF;
+       top:95px;
+       z-index: 2;
+      .sbx{
+          position: absolute;
+          left:312px;
+          top:287px;
+          z-index: 6;
+      }  
+      .dbx{
+          position: absolute;
+          left:517px;
+          top:70px;
+          z-index: 6;
+      }  
+     .jl3box{
+         @include lr;
+         top:110px;
+         width:855px;
+         height: 324px;
+      .three1pic{
+          width: 268px;
+          height: 324px;
+          float: left;
+      }
+      .three2pic{
+          width: 268px;
+          height: 324px;
+          float: left;
+          margin-left: 25px;
+          margin-right: 25px;
+      .three1picwz{
+           position: absolute;
+           left:0;
+           top:267px;
+           width: 268px;
+           height: 56px;
+           background: #000;
+           opacity: 0.7;
+           line-height: 56px;
+       p{
+           text-align: center;
+           color:#fff;
+           font-size: 20px;
+       }
+       }
+      }
+      .three3pic{
+          z-index: 10;
+          width: 268px;
+          height: 324px;
+          float: left;
+          background: #10C8F0;
+        .three1picwz{
+           position: absolute;
+           left:0;
+           top:267px;
+           width: 268px;
+           height: 56px;
+           line-height: 56px;
+       p{
+           text-align: center;
+           color:#fff;
+           font-size: 20px;
+       }
+       }
+       .jiay{
+           width: 14px;
+           height: 102px;
+           background: #fff;
+           @include  center;
+       }
+       .jiax{
+           width: 102px;
+           height: 14px;
+           background: #fff;
+           @include  center;
+       }
+      }
+     }
+     .save{
+        @include lr;
+        top:470px;
+        width:855px;
+        height:78px;
+        text-align: center;
+    }
+    }
+    .fcircle{
+        width: 431px;
+        height: 78px;
+        background: url(../img/wodejianlitu/fcircle.png);
+        position: absolute;
+        left:104px;
+        top:660px;
+    }
+    .jlpages{
+        width: 305px;
+        height:108px;
+        position: absolute;
+        left:533px;
+        top:660px;
+        background: url(../img/wodejianlitu/jlpages.png);
+    }
+	}
+}
