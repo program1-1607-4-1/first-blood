@@ -1,0 +1,89 @@
+@import 'base';
+$color:#E5E5E5;
+@mixin input{
+    border: 2px solid $color;
+     border-radius: 5px;
+     outline:none;
+     font-size: 16px;
+      color: #6B6A6A;
+      margin-right: 30px;
+}
+
+body{
+    background: #F4F4F4;
+    font-size: 14px;
+}
+input,select,textarea{
+    border: 0;
+}
+.grxx-text{
+    @include wh($neikuan,1100px);
+    background: #fff;
+    @include lr;
+    margin-top: 20px;
+    .text-nei{
+        margin-left:175px;
+        margin-top: 63px;
+        div{
+            margin: 20px 0;
+        }
+        img{
+            margin-left: 60px;
+        }
+        
+        .nc{
+              @include wh(180px,33px);
+              margin-left: 52px;
+              @include input;
+              
+        }
+        .xb{
+            @include wh(60px,33px);
+              margin-left: 52px;
+              @include input;
+              text-align: center;
+              line-height: 33px;
+        }
+        .nl{
+            @include wh(60px,33px);
+              margin-left: 52px;
+              @include input;
+              text-align: center;
+              line-height: 33px;
+        }
+        .qm{
+             @include wh(425px,76px);
+              margin-left: 52px;
+              @include input;
+              vertical-align: top;
+              resize: none;
+        }
+        .zsxm{
+            @include wh(182px,33px);
+            @include input;
+            margin-left: 23px;
+        }
+        .sfzt{
+            @include wh(372px,33px);
+            @include input;
+            margin-left: 23px;
+            
+        }
+        .qzyx{
+              @include wh(135px,33px);
+            @include input;
+            margin-left: 23px;
+        }
+        .sheng{
+              @include wh(92px,33px);
+            @include input;
+            margin-left: 23px;
+        }
+        .shi{
+              @include wh(92px,33px);
+            @include input;
+            margin-left: 23px;
+            
+        }
+    }
+}
