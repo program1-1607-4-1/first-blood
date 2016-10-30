@@ -1,0 +1,67 @@
+@import 'base';
+.body{
+	width:$neikuan;
+	margin:0 auto;
+	background:#fff;
+}
+.sousuo{
+    overflow:hidden;
+    height:80px;
+	.text{
+	     width:900px;
+	     height:80px;
+	     float:left;
+	     boder:1px solid #CCCCCC;
+	     font-size:19px;
+	     color:#CCCCCC;
+	}
+	.botton{
+         width:178px;
+         height:80px;
+         background:#40D1F1;
+         font-size:19px;
+         color:#fff;
+         border:1px solid #CCCCCC;
+         float:right;
+         text-align:center;
+         font-family:'微软雅黑';
+	}
+}
+.leibie{
+	overflow:hidden;
+    margin-top:48px;
+	li{
+	     width:227px;
+	     height:33px;
+	     border:1px solid #CCCCCC;
+	     float:left;
+	     position:relative;
+	     line-height:33px;
+	     margin:{
+	      	right:16px;
+	     }
+	     a{
+	        color:#666666;
+	        font-size:12px;
+	        margin:{
+                left:8px;
+	          }
+
+	     }
+	     .sanjiao{
+		     position:absolute;
+		     bottom:3px;
+	         right:1px;
+	         border:{
+	             left:7px solid #fff;
+	             right:7px solid #0180CF;
+	             top:7px solid #fff;
+	             bottom:7px solid #0180CF;
+	         }
+	     }
+	}
+	.last{
+	     margin:0;
+	}
+
+}
