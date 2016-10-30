@@ -1,0 +1,289 @@
+@import 'base';
+.body{
+	width:$neikuan;
+	margin:0 auto;
+	background:#fff;
+}
+.sousuo{
+    overflow:hidden;
+    height:80px;
+	.text{
+	     width:900px;
+	     height:80px;
+	     float:left;
+	     boder:1px solid #CCCCCC;
+	     font-size:19px;
+	     color:#CCCCCC;
+	}
+	.botton{
+         width:178px;
+         height:80px;
+         background:#40D1F1;
+         font-size:19px;
+         color:#fff;
+         border:1px solid #CCCCCC;
+         float:right;
+         text-align:center;
+         font-family:'微软雅黑';
+	}
+}
+.leibie{
+	overflow:hidden;
+    margin-top:48px;
+	li{
+	     width:227px;
+	     height:33px;
+	     border:1px solid #CCCCCC;
+	     float:left;
+	     position:relative;
+	     line-height:33px;
+	     margin:{
+	      	right:16px;
+	     }
+	     a{
+	        color:#666666;
+	        font-size:12px;
+	        margin:{
+                left:8px;
+	          }
+
+	     }
+	     .sanjiao{
+		     position:absolute;
+		     bottom:3px;
+	         right:1px;
+	         border:{
+	             left:7px solid #fff;
+	             right:7px solid #0180CF;
+	             top:7px solid #fff;
+	             bottom:7px solid #0180CF;
+	         }
+	     }
+	}
+	.last{
+	     margin:0;
+	}
+
+}
+.shejishi{
+	width:100%;
+	height:1024px;
+	border:1px solid #CCCCCC;
+	overflow:hidden;
+	margin-top:51px;
+	padding:{
+		left:32px;
+		right:25px;
+	}
+	.wangye{
+		height:169px;
+		border-bottom:1px solid #E6E6E6;
+		padding:{
+			top:28px;
+			bottom:28px;
+		}
+		.wangye-left{
+			width:50%;
+			height:100%;
+			float:left;
+			a{
+				width:114px;
+				height:114px;
+				display:inline-block;
+				float:left;
+				margin:{
+					right:48px;
+				}
+			}
+			.wz{
+				width:390px;
+				float:left;
+				h1{
+					font-size:18px;
+					font-weight:normal;
+					color:#515151;
+					
+					margin:{
+						bottom:27px;
+					}
+				}
+				p{
+					margin:{
+						bottom:20px;
+					}
+					.yx{
+						color:#7A7A7A;
+						font-size:15px;
+						margin-right:11px;
+					}
+					.num{
+						color:#F1CA47;
+						font-size:15px;
+						margin-right:18px;
+					}
+					.xl{
+						color:#7A7A7A;
+						font-size:15px;
+						margin-right:18px;
+					}
+					.jy{
+						color:#7A7A7A;
+						font-size:15px;
+						margin-right:18px;
+					}
+				}
+				.dizi{
+					color:#7A7A7A;
+					font-size:12px;
+				}
+			}
+		}
+		.wangye-right{
+			.wz{
+				padding:{
+					left:46px;
+				}
+				border:{
+					left:1px solid #E6E6E6;
+				}
+				position:relative;
+				width:390px;
+				float:left;
+				h1{
+					font-size:18px;
+					font-weight:normal;
+					color:#515151;
+					
+					margin:{
+						bottom:27px;
+					}
+				}
+				p{
+					color:#7A7A7A;
+					font-size:15px;
+					margin:{
+						bottom:18px;
+					}
+				}
+				.gezi{
+					a{
+						display:inline-block;
+						width:58px;
+						height:22px;
+						border:1px solid #CCCCCC;
+						border-radius:3px;
+						color:#7A7A7A;
+						font-size:12px;
+						text-align:center;
+						line-height:22px; 
+						margin-left:4px;
+					}
+				}
+			}
+			.anniu{
+					position:absolute;
+					top:25px;
+					right:25px;
+			    a{
+			    	display:inline-block;
+					width:138px;
+					height:42px;
+					border:1px solid #CCCCCC;
+					border-radius:5px;
+					color:#fff;
+					font-size:18px;
+					text-align:center;
+					line-height:42px; 
+					background:#40D1F1;
+			    }
+			}
+		}
+	}
+		.wangye:nth-child(1){
+			.wangye-left{
+				a{
+					background:url($img-url+'zwlbimg/1.png') no-repeat;
+				}
+			}
+			
+		}
+		.wangye:nth-child(2){
+			.wangye-left{
+				a{
+					background:url($img-url+'zwlbimg/2.png') no-repeat;
+				}
+			}
+			
+		}
+		.wangye:nth-child(3){
+			.wangye-left{
+				a{
+					background:url($img-url+'zwlbimg/3.png') no-repeat;
+					background-position:100% 100%;
+					overflow:hidden;
+				}
+			}
+			
+		}
+		.wangye:nth-child(4){
+			.wangye-left{
+				a{
+					background:url($img-url+'zwlbimg/4.png') no-repeat;
+				}
+			}
+		}
+		.wangye:nth-child(5){
+			.wangye-left{
+				a{
+					background:url($img-url+'zwlbimg/4.png') no-repeat;
+				}
+			}
+		}
+}
+.ye{
+	height:177px;
+	margin:0 auto;
+	.yenum{
+		padding:{
+			top:78px;
+			left:340px;
+		}
+		.shouye{
+			font-size:16px;
+			float:left;
+			margin-right:11px;
+            a{
+            	color:#999999;
+            }
+		}
+		.numb{
+			width:22px;
+			height:22px;
+			float:left;
+			display:inline-block;
+			border:1px solid #CCCCCC;
+			margin-right:11px;
+			text-align:center;
+			line-height:22px;
+			a{
+            	color:#999999;
+            }
+		}
+		.shang{
+			font-size:16px;
+			float:left;
+			margin-right:11px;
+			
+			a{
+            	color:#999999;
+            }
+		}
+		.kuang{
+			width:38px;
+			height:22px;
+			float:left;
+			margin-right:11px;
+			border:1px solid #CCCCCC;
+		}
+	}
+}
