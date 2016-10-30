@@ -21,3 +21,4 @@ img {
 /*圆:@include yuan*/
 /*宽高:@include wh($w,$h)*/
 /*调试所用边框：@include border*/
+/*图片居中：@include img-center*/
