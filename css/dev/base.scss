@@ -1,0 +1,53 @@
+* {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0;
+}
+/*上下居中:@include tb*/
+@mixin tb{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*左右居中: @include lr*/
+@mixin lr{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*居中:@include center*/
+@mixin center{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*圆:@include yuan*/
+@mixin yuan($w){
+    width: $w;
+    height: $w;
+    border-radius: 50%;   
+}
+/*宽高:@include wh($w,$h)*/
+@mixin wh($w,$h){
+     width: $w;
+    height: $w;
+}
+$neikuan:1200px;
+$img-url:"../img/";
+/*调试所用边框：@include border*/
+@mixin border{
+    border: 1px solid #000;
+}
