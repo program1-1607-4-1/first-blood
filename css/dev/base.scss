@@ -43,7 +43,7 @@ img{
 /*宽高:@include wh($w,$h)*/
 @mixin wh($w,$h){
     width: $w;
-    height: $w;
+    height: $h;
 }
 $neikuan:1200px;
 $img-url:"../img/";
@@ -55,8 +55,7 @@ $img-url:"../img/";
 @mixin img-center{
     max-width: 100%;
     max-height: 100%;
-    @include center; 
-     
+    @include center;  
 }
 
 
