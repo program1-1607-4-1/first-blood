@@ -1,0 +1,7 @@
+@import "base";
+.zp_banner{
+    @include wh(100%,468px)
+    background: url($img-url+"zhaopin/zhaopin_banner.jpg");
+    @include img-center;
+    
+}
