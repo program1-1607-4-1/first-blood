@@ -21,6 +21,7 @@ img {
 /*圆:@include yuan*/
 /*宽高:@include wh($w,$h)*/
 /*调试所用边框：@include border*/
+/*图片居中：@include img-center*/
 .body {
   width: 1200px;
   margin: 0 auto;
@@ -86,4 +87,208 @@ img {
 
 .leibie .last {
   margin: 0;
+}
+
+.shejishi {
+  width: 100%;
+  height: 1024px;
+  border: 1px solid #CCCCCC;
+  overflow: hidden;
+  margin-top: 51px;
+  padding-left: 32px;
+  padding-right: 25px;
+}
+
+.shejishi .wangye {
+  height: 169px;
+  border-bottom: 1px solid #E6E6E6;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.shejishi .wangye .wangye-left {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.shejishi .wangye .wangye-left a {
+  width: 114px;
+  height: 114px;
+  display: inline-block;
+  float: left;
+  margin-right: 48px;
+}
+
+.shejishi .wangye .wangye-left .wz {
+  width: 390px;
+  float: left;
+}
+
+.shejishi .wangye .wangye-left .wz h1 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #515151;
+  margin-bottom: 27px;
+}
+
+.shejishi .wangye .wangye-left .wz p {
+  margin-bottom: 20px;
+}
+
+.shejishi .wangye .wangye-left .wz p .yx {
+  color: #7A7A7A;
+  font-size: 15px;
+  margin-right: 11px;
+}
+
+.shejishi .wangye .wangye-left .wz p .num {
+  color: #F1CA47;
+  font-size: 15px;
+  margin-right: 18px;
+}
+
+.shejishi .wangye .wangye-left .wz p .xl {
+  color: #7A7A7A;
+  font-size: 15px;
+  margin-right: 18px;
+}
+
+.shejishi .wangye .wangye-left .wz p .jy {
+  color: #7A7A7A;
+  font-size: 15px;
+  margin-right: 18px;
+}
+
+.shejishi .wangye .wangye-left .wz .dizi {
+  color: #7A7A7A;
+  font-size: 12px;
+}
+
+.shejishi .wangye .wangye-right .wz {
+  padding-left: 46px;
+  border-left: 1px solid #E6E6E6;
+  position: relative;
+  width: 390px;
+  float: left;
+}
+
+.shejishi .wangye .wangye-right .wz h1 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #515151;
+  margin-bottom: 27px;
+}
+
+.shejishi .wangye .wangye-right .wz p {
+  color: #7A7A7A;
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+.shejishi .wangye .wangye-right .wz .gezi a {
+  display: inline-block;
+  width: 58px;
+  height: 22px;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  color: #7A7A7A;
+  font-size: 12px;
+  text-align: center;
+  line-height: 22px;
+  margin-left: 4px;
+}
+
+.shejishi .wangye .wangye-right .anniu {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.shejishi .wangye .wangye-right .anniu a {
+  display: inline-block;
+  width: 138px;
+  height: 42px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 42px;
+  background: #40D1F1;
+}
+
+.shejishi .wangye:nth-child(1) .wangye-left a {
+  background: url("../img/zwlbimg/1.png") no-repeat;
+}
+
+.shejishi .wangye:nth-child(2) .wangye-left a {
+  background: url("../img/zwlbimg/2.png") no-repeat;
+}
+
+.shejishi .wangye:nth-child(3) .wangye-left a {
+  background: url("../img/zwlbimg/3.png") no-repeat;
+  background-position: 100% 100%;
+  overflow: hidden;
+}
+
+.shejishi .wangye:nth-child(4) .wangye-left a {
+  background: url("../img/zwlbimg/4.png") no-repeat;
+}
+
+.shejishi .wangye:nth-child(5) .wangye-left a {
+  background: url("../img/zwlbimg/4.png") no-repeat;
+}
+
+.ye {
+  height: 177px;
+  margin: 0 auto;
+}
+
+.ye .yenum {
+  padding-top: 78px;
+  padding-left: 340px;
+}
+
+.ye .yenum .shouye {
+  font-size: 16px;
+  float: left;
+  margin-right: 11px;
+}
+
+.ye .yenum .shouye a {
+  color: #999999;
+}
+
+.ye .yenum .numb {
+  width: 22px;
+  height: 22px;
+  float: left;
+  display: inline-block;
+  border: 1px solid #CCCCCC;
+  margin-right: 11px;
+  text-align: center;
+  line-height: 22px;
+}
+
+.ye .yenum .numb a {
+  color: #999999;
+}
+
+.ye .yenum .shang {
+  font-size: 16px;
+  float: left;
+  margin-right: 11px;
+}
+
+.ye .yenum .shang a {
+  color: #999999;
+}
+
+.ye .yenum .kuang {
+  width: 38px;
+  height: 22px;
+  float: left;
+  margin-right: 11px;
+  border: 1px solid #CCCCCC;
 }
