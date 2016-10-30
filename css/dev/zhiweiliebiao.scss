@@ -1,8 +1,11 @@
 @import 'base';
+body{
+	background:#F4F4F4;
+}
 .body{
 	width:$neikuan;
 	margin:0 auto;
-	background:#fff;
+	background:#F4F4F4;
 }
 .sousuo{
     overflow:hidden;
@@ -11,9 +14,11 @@
 	     width:900px;
 	     height:80px;
 	     float:left;
-	     boder:1px solid #CCCCCC;
+	     background:#F4F4F4;
+	     border:1px solid #cccccc;
 	     font-size:19px;
 	     color:#CCCCCC;
+
 	}
 	.botton{
          width:178px;
@@ -284,6 +289,92 @@
 			float:left;
 			margin-right:11px;
 			border:1px solid #CCCCCC;
+		}
+	}
+}
+.qiye{
+	padding-top:74px;
+	height:343px;
+	.tujian{
+		margin-top:63px;
+		.tujianqiye{
+			margin-right:29px;
+			border-radius:10px;
+			width:278px;
+			height:279px;
+			float:left;
+			position:relative;
+			color:#fff;
+			overflow:hidden;
+			.hid{
+				width:278px;
+				height:279px;
+				position:absolute;
+				top:0;
+				left:0;
+				z-index:3;
+				padding-top:49px;
+				border:1px solid #BCBDBC;
+				background:rgba(0,0,0,0.8);
+				opacity:0;	
+			}
+		}
+		.tujianqiye:hover .hid{
+			opacity:1;
+		}
+		.last{
+			margin-right:0;
+		}
+	}
+}
+
+.hid{
+	.span{
+		font-size:17px;
+		text-align:center;
+		display:block;
+		color:#fff;
+	}
+	.xian{
+		width:34px;
+		height:1px;
+		display:block;
+		margin:{
+			left:120px;
+			top:20px;
+		}
+		background:#fff;
+		text-align:center;
+		line-height:37px;
+	}
+	p{
+		padding:{
+			left:28px;
+			right:28px;
+		}
+		text-indent:2em;
+		font-size:13px;
+		color:#fff;
+	}
+	.more{
+		border:1px solid #fff;
+		border-radius:3px;
+		width:123px;
+		height:34px;
+		margin:43px auto;
+		text-align:center;
+		line-height:34px;
+
+		a{
+			color:#fff;
+			b{
+				font-size:10px;
+				color:#fff;
+			}
+			span{
+				font-size:10px;
+				color:#fff;
+			}
 		}
 	}
 }
