@@ -1,0 +1,22 @@
+@charset "UTF-8";
+* {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+/*上下居中*/
+/*左右居中*/
+/*居中*/
+/*圆*/
+/*宽高*/

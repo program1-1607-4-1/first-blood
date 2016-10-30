@@ -1,0 +1,52 @@
+* {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0;
+}
+/*上下居中*/
+@mixin tb{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*左右居中*/
+@mixin lr{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*居中*/
+@mixin center{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*圆*/
+@mixin yuan($w){
+    width: $w;
+    height: $w;
+    border-radius: 50%;   
+}
+/*宽高*/
+@mixin wh($w,$h){
+     width: $w;
+    height: $w;
+}
+$neikuan:1200px;
+$img-url:"../img/";
+@mixin border{
+    border: 1px solid #000;
+}
