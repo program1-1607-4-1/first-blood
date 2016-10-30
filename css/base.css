@@ -15,8 +15,9 @@ img {
   border: 0;
 }
 
-/*上下居中*/
-/*左右居中*/
-/*居中*/
-/*圆*/
-/*宽高*/
+/*上下居中:@include tb*/
+/*左右居中: @include lr*/
+/*居中:@include center*/
+/*圆:@include yuan*/
+/*宽高:@include wh($w,$h)*/
+/*调试所用边框：@include border*/
