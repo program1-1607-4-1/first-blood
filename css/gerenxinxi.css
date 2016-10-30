@@ -1,0 +1,172 @@
+@charset "UTF-8";
+* {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+  color: #929292;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+/*上下居中:@include tb*/
+/*左右居中: @include lr*/
+/*居中:@include center*/
+/*圆:@include yuan*/
+/*宽高:@include wh($w,$h)*/
+/*调试所用边框：@include border*/
+body {
+  background: #F4F4F4;
+  font-size: 14px;
+}
+
+input, select, textarea {
+  border: 0;
+}
+
+.grxx-text {
+  width: 1200px;
+  height: 1100px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.grxx-text .text-nei {
+  margin-left: 175px;
+  margin-top: 63px;
+}
+
+.grxx-text .text-nei div {
+  margin: 20px 0;
+}
+
+.grxx-text .text-nei img {
+  margin-left: 60px;
+}
+
+.grxx-text .text-nei .nc {
+  width: 180px;
+  height: 33px;
+  margin-left: 52px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+}
+
+.grxx-text .text-nei .xb {
+  width: 60px;
+  height: 33px;
+  margin-left: 52px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+  text-align: center;
+  line-height: 33px;
+}
+
+.grxx-text .text-nei .nl {
+  width: 60px;
+  height: 33px;
+  margin-left: 52px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+  text-align: center;
+  line-height: 33px;
+}
+
+.grxx-text .text-nei .qm {
+  width: 425px;
+  height: 76px;
+  margin-left: 52px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+  vertical-align: top;
+  resize: none;
+}
+
+.grxx-text .text-nei .zsxm {
+  width: 182px;
+  height: 33px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+  margin-left: 23px;
+}
+
+.grxx-text .text-nei .sfzt {
+  width: 372px;
+  height: 33px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+  margin-left: 23px;
+}
+
+.grxx-text .text-nei .qzyx {
+  width: 135px;
+  height: 33px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+  margin-left: 23px;
+}
+
+.grxx-text .text-nei .sheng {
+  width: 92px;
+  height: 33px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+  margin-left: 23px;
+}
+
+.grxx-text .text-nei .shi {
+  width: 92px;
+  height: 33px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+  margin-left: 23px;
+}

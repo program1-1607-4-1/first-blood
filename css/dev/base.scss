@@ -4,12 +4,15 @@
     margin: 0;
     list-style: none;
     box-sizing: border-box;
+    font-family: "微软雅黑";
+    color: #929292;
 }
 a{
     text-decoration: none;
 }
 img{
     border: 0;
+    vertical-align: middle;
 }
 /*上下居中:@include tb*/
 @mixin tb{
@@ -43,7 +46,7 @@ img{
 /*宽高:@include wh($w,$h)*/
 @mixin wh($w,$h){
      width: $w;
-    height: $w;
+    height: $h;
 }
 $neikuan:1200px;
 $img-url:"../img/";
