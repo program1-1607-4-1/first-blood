@@ -36,7 +36,6 @@ input, select, textarea {
 
 .grxx-text {
   width: 1200px;
-  width: 1200px;
   height: 1100px;
   background: #fff;
   position: absolute;
@@ -48,6 +47,7 @@ input, select, textarea {
 
 .grxx-text .text-nei {
   margin-left: 175px;
+  margin-right: 175px;
   margin-top: 63px;
 }
 
@@ -61,7 +61,6 @@ input, select, textarea {
 
 .grxx-text .text-nei .nc {
   width: 180px;
-  width: 180px;
   height: 33px;
   margin-left: 52px;
   border: 2px solid #E5E5E5;
@@ -73,7 +72,6 @@ input, select, textarea {
 }
 
 .grxx-text .text-nei .xb {
-  width: 60px;
   width: 60px;
   height: 33px;
   margin-left: 52px;
@@ -89,7 +87,6 @@ input, select, textarea {
 
 .grxx-text .text-nei .nl {
   width: 60px;
-  width: 60px;
   height: 33px;
   margin-left: 52px;
   border: 2px solid #E5E5E5;
@@ -104,7 +101,6 @@ input, select, textarea {
 
 .grxx-text .text-nei .qm {
   width: 425px;
-  width: 425px;
   height: 76px;
   margin-left: 52px;
   border: 2px solid #E5E5E5;
@@ -115,10 +111,10 @@ input, select, textarea {
   margin-right: 30px;
   vertical-align: top;
   resize: none;
+  margin-bottom: 50px;
 }
 
 .grxx-text .text-nei .zsxm {
-  width: 182px;
   width: 182px;
   height: 33px;
   border: 2px solid #E5E5E5;
@@ -132,7 +128,6 @@ input, select, textarea {
 
 .grxx-text .text-nei .sfzt {
   width: 372px;
-  width: 372px;
   height: 33px;
   border: 2px solid #E5E5E5;
   border-radius: 5px;
@@ -140,12 +135,11 @@ input, select, textarea {
   font-size: 16px;
   color: #6B6A6A;
   margin-right: 30px;
-  margin-left: 23px;
+  margin-left: 20px;
 }
 
 .grxx-text .text-nei .qzyx {
   width: 135px;
-  width: 135px;
   height: 33px;
   border: 2px solid #E5E5E5;
   border-radius: 5px;
@@ -153,12 +147,11 @@ input, select, textarea {
   font-size: 16px;
   color: #6B6A6A;
   margin-right: 30px;
-  margin-left: 23px;
+  margin-left: 13px;
 }
 
 .grxx-text .text-nei .sheng {
   width: 92px;
-  width: 92px;
   height: 33px;
   border: 2px solid #E5E5E5;
   border-radius: 5px;
@@ -166,12 +159,11 @@ input, select, textarea {
   font-size: 16px;
   color: #6B6A6A;
   margin-right: 30px;
-  margin-left: 23px;
+  margin-left: 20px;
 }
 
 .grxx-text .text-nei .shi {
   width: 92px;
-  width: 92px;
   height: 33px;
   border: 2px solid #E5E5E5;
   border-radius: 5px;
@@ -179,5 +171,117 @@ input, select, textarea {
   font-size: 16px;
   color: #6B6A6A;
   margin-right: 30px;
-  margin-left: 23px;
+  margin-left: 20px;
+}
+
+.grxx-text .text-nei .mbxz {
+  width: 182px;
+  height: 33px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+  margin-left: 12px;
+}
+
+.grxx-text .text-nei .sjhm {
+  width: 182px;
+  height: 33px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+  margin-left: 12px;
+}
+
+.grxx-text .text-nei .yx {
+  width: 182px;
+  height: 33px;
+  margin-left: 40px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+.grxx-text .text-nei .byyx {
+  width: 182px;
+  height: 33px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+  margin-left: 12px;
+}
+
+.grxx-text .text-nei .zymc {
+  width: 182px;
+  height: 33px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+  margin-left: 12px;
+}
+
+.grxx-text .text-nei .bysj {
+  width: 182px;
+  height: 33px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+  margin-left: 12px;
+}
+
+.grxx-text .text-nei .xl {
+  width: 100px;
+  height: 33px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+.grxx-text .text-nei .gzjy {
+  width: 182px;
+  height: 33px;
+  border: 2px solid #E5E5E5;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #6B6A6A;
+  margin-right: 30px;
+  margin-left: 12px;
+  margin-bottom: 50px;
+}
+
+.grxx-text .text-nei .last {
+  width: 437px;
+  height: 45px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.grxx-text .text-nei .last img {
+  margin: 0;
+  margin-right: 65px;
 }

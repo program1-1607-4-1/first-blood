@@ -23,6 +23,7 @@ input,select,textarea{
     margin-top: 20px;
     .text-nei{
         margin-left:175px;
+        margin-right:175px;
         margin-top: 63px;
         div{
             margin: 20px 0;
@@ -57,6 +58,7 @@ input,select,textarea{
               @include input;
               vertical-align: top;
               resize: none;
+              margin-bottom: 50px;
         }
         .zsxm{
             @include wh(182px,33px);
@@ -66,24 +68,79 @@ input,select,textarea{
         .sfzt{
             @include wh(372px,33px);
             @include input;
-            margin-left: 23px;
+            margin-left: 20px;
             
         }
         .qzyx{
               @include wh(135px,33px);
             @include input;
-            margin-left: 23px;
+            margin-left: 13px;
         }
         .sheng{
               @include wh(92px,33px);
             @include input;
-            margin-left: 23px;
+            margin-left: 20px;
         }
         .shi{
               @include wh(92px,33px);
             @include input;
-            margin-left: 23px;
+            margin-left: 20px;
             
         }
+        .mbxz{
+             @include wh(182px,33px);
+            @include input;
+            margin-left: 12px;
+        }
+        .sjhm{
+             @include wh(182px,33px);
+            @include input;
+            margin-left: 12px;
+        }
+        .yx{
+            @include wh(182px,33px);
+              margin-left: 40px;
+              @include input;
+              margin-bottom: 50px;
+        }
+        .byyx{
+              @include wh(182px,33px);
+            @include input;
+            margin-left: 12px;
+        }
+        .zymc{
+               @include wh(182px,33px);
+            @include input;
+            margin-left: 12px;
+        }
+        .bysj{
+              @include wh(182px,33px);
+            @include input;
+            margin-left: 12px;
+        }
+        .xl{
+             @include wh(100px,33px);
+            @include input;
+            margin-left: 40px;
+        }
+        .gzjy{
+              @include wh(182px,33px);
+            @include input;
+            margin-left: 12px;
+            margin-bottom: 50px;
+        }
+        .last{
+             @include wh(437px,45px);
+             @include lr;
+             img{
+                 margin: 0;
+                 margin-right: 65px;
+             }
+        }
+        
+        
+        
+        
+        
     }
 }
