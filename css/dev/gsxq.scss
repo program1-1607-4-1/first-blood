@@ -2,6 +2,86 @@
 body{
     background: #F4F4F4;
 }
+.headda{
+     width: 100%;
+     background:#13587F;
+     height: 102px;
+    #head{
+        width: $neikuan;
+        height: 102px;
+        background:#13587F;
+        margin: 0 auto;
+        .headleft{
+            width: 205px;
+            height: 100%;
+            background: red;
+            float:left;
+            margin: {
+                left:-206px ;
+            };
+        }
+        .headmiddle{
+            height: 100%;
+            border-color: green;
+            float: left;
+            margin-left: 27px;
+            padding-top: 15px;
+            ul{
+                width: 175px;
+                height: 100%;
+                float: left;
+                padding: 10px;
+                font-size: 15px;
+                color:#FFFFFF;
+                li{
+                    a{
+                        color: #FFFFFF;
+                    }
+                    img{
+                        display: block;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                    }  
+                }
+            }
+        }
+        .headright{
+            height: 100%;
+            float: right;
+            margin-left: 0px;
+            padding-top: 30px;
+            position: relative;
+            .headsou{
+                width: 300px;
+                height: 35px;
+                float:left;
+                border:2px solid #B8C3CE;
+                border-radius: 50px;
+                .dian{
+  
+                    float: left;
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    padding-right: 15px;
+                }
+                .da{
+                    float: right;
+                    margin-top: 3px;
+                    margin-right: 4px;
+                }
+                #zhen{
+                    width:130px;
+                    height: 36px;
+                    float: left;
+                    border: 0;
+                    background: none;
+                }
+            }
+        }
+    }
+}
+
+
 .content {
     width: $neikuan;
     margin: 0 auto;
@@ -284,6 +364,69 @@ body{
             vertical-align: middle;
         }
     }
+     .rec1{
+         width: 34px;
+        height: 11px;
+        border-radius: 6px;
+        position: absolute;
+        top:10px;
+        right:-14px;
+        background: #D038F6;
+    }
+    .rec2{
+        width: 18px;
+        height: 5px;
+        border-radius: 3px;
+        position: absolute;
+        top:25px;
+        right:-9px;
+        background: #FFD220;
+    }
+    .rec3{
+        width: 8px;
+        height:8px;
+        border-radius: 50%;
+        position: absolute;
+        top:35px;
+        right:-5px;
+        background: #FFD220;
+    }
+     .rec4{
+        width: 32px;
+        height:8px;
+        border-radius: 4px;
+        position: absolute;
+        bottom:10px;
+        left:-19px;
+        background: #FFD220;
+    }
+    .rec5{
+        width: 20px;
+        height: 5px;
+        border-radius: 3px;
+        position: absolute;
+        bottom:23px;
+        left:-9px;
+        background: #FFFDF3;
+    }
+    .rec6{
+        width: 6px;
+        height:6px;
+        border-radius: 50%;
+        position: absolute;
+        bottom:30px;
+        left:2px;
+        background: #FFD220;
+    }
+    .rec7{
+        width: 4px;
+        height:4px;
+        border-radius: 50%;
+        position: absolute;
+        bottom:30px;
+        left:-22px;
+        background: #FFD220;
+    }
 }
 .pinglun{
     width: $neikuan;
@@ -409,9 +552,145 @@ body{
         position: relative;
         width: 890px;
         height: 200px;
-        img{
+        a{
+            display: block;
+            width: 180px;
+            height: 51px;
             border-radius: 23px;
-            @include img-center;
+                @include img-center;
+                box-shadow: 0 0 5px rgba(0,0,0,0.3); 
         }
+        
     }
+}
+.foot{
+    width: 100%;
+    height: 230px;
+    background: #2D2D2D;
+    position: relative;
+}
+.footleft img{
+    position: absolute;
+    left:282px;
+    top: 59px;
+}
+.footmiddle{
+    height: 100%;
+    width:698px;
+    position: absolute;
+    left:336px;
+ 
+}
+.footmiddle .dianshang{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    position: absolute;
+    top:55px;
+    left:49px;
+    background: #B4B4B4;
+}
+.footmiddle .dianxia{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    position: absolute;
+    top:156px;
+    left:49px;
+    background: #B4B4B4;
+}
+
+.footmiddle .xian{
+    width: 1px;
+    height: 100px;
+    position:absolute;
+    top: 57px;
+    left:50px;
+    background: #4D4D4D;
+    
+}
+.footright{
+    height: 107px;
+    width: 107px;
+    position: absolute;
+    top: 55px;
+    left:1034px;
+    background: #24B0FF;
+}
+.footmiddle .shang{
+    position: absolute;
+    top: 55px;
+    left: 90px;
+    font-size: 14px;
+}
+.footmiddle .xuxian{
+    width: 190px;
+    height: 2px;
+    position: absolute;
+    top:70px;
+    left:90px ;
+    
+    
+}
+.footmiddle .zhong{
+    position: absolute;
+    top: 96px;
+    left:90px;
+    font-size: 13px;
+}
+.footmiddle .xia{
+    position: absolute;
+    left:88px;
+    top:125px;
+}
+.cedaohang{
+     @include wh(66px,980px);
+     background: rgba(137,137,137,0.5);
+     position: absolute;
+     top: 0;
+     right: 0;
+     .ce-shang{
+         @include wh(66px,115px);
+         background: url(../img/cedaohang/ce1.png) no-repeat;
+         margin-top:20px;
+         background-position: -5px 0;
+         a{
+             display: block;
+             @include wh(66px,115px);
+         }
+     }
+     .ce-xia{
+          @include wh(66px,587px);
+          background: url(../img/cedaohang/ce2.png) no-repeat;
+          margin-top:60px;
+          a{
+               display: block;
+             @include wh(66px,45px);
+             margin-bottom: 25px;
+            
+          }
+          &>a:nth-of-type(1){
+             @include wh(66px,65px);
+          } 
+          &>a:nth-of-type(5){
+             margin-bottom: 105px;
+          } 
+          span{
+                display: block;
+             @include wh(99px,36px);
+              background: url(../img/cedaohang/ce3.png) no-repeat;
+              text-align: center;
+              line-height: 36px;
+              font-size: 16px;
+              font-weight: 700;
+              color: #209CEB;
+              position: absolute;
+              left: -76px;
+              top: 20px;
+              display: none;
+          }
+           &>a:nth-child(1){
+               top: 20px;
+          } 
+     }
 }

@@ -1,0 +1,142 @@
+@charset "UTF-8";
+* {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "微软雅黑"; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  vertical-align: middle; }
+
+/*上下居中:@include tb*/
+/*左右居中: @include lr*/
+/*居中:@include center*/
+/*圆:@include yuan*/
+/*宽高:@include wh($w,$h)*/
+/*调试所用边框：@include border*/
+/*图片居中：@include img-center*/
+body {
+  height: 3000px; }
+
+.headda {
+  width: 100%;
+  height: 102px;
+  background: #13587F; }
+  .headda #head {
+    width: 1200px;
+    height: 102px;
+    margin: 0 auto; }
+    .headda #head .headleft {
+      width: 205px;
+      height: 100%;
+      background: red;
+      float: left;
+      margin-left: -233px; }
+    .headda #head .headmiddle {
+      height: 100%;
+      border-color: green;
+      float: left;
+      margin-left: 27px;
+      padding-top: 15px; }
+      .headda #head .headmiddle ul {
+        width: 175px;
+        height: 100%;
+        float: left;
+        padding: 10px;
+        font-size: 15px;
+        color: #FFFFFF; }
+        .headda #head .headmiddle ul li a {
+          color: #FFFFFF; }
+        .headda #head .headmiddle ul li img {
+          display: block;
+          padding-top: 5px;
+          padding-bottom: 5px; }
+    .headda #head .headright {
+      height: 100%;
+      float: right;
+      margin-left: 0px;
+      padding-top: 30px; }
+      .headda #head .headright .headsou {
+        width: 300px;
+        height: 35px;
+        float: left;
+        border-radius: 50px; }
+        .headda #head .headright .headsou .dian {
+          float: left;
+          margin-top: 5px;
+          margin-left: 10px;
+          padding-right: 15px; }
+        .headda #head .headright .headsou .da {
+          float: right;
+          margin-top: 3px;
+          margin-right: 4px; }
+        .headda #head .headright .headsou #zhen {
+          width: 130px;
+          height: 36px;
+          float: left;
+          border: 0;
+          background: none; }
+      .headda #head .headright .kuang {
+        width: 196px;
+        height: 96px;
+        position: absolute;
+        left: 5px;
+        top: 60px;
+        border: 1px solid #B3A13A;
+        background: #EDF2F5;
+        border-radius: 5px;
+        font-size: 12px;
+        opacity: 0.9;
+        z-index: 10; }
+        .headda #head .headright .kuang .kuangshang {
+          margin-top: 25px;
+          margin-left: 8px;
+          position: relative; }
+        .headda #head .headright .kuang .kuangxia {
+          margin-top: 13px;
+          margin-left: 8px; }
+        .headda #head .headright .kuang .hengxian {
+          width: 170px;
+          height: 1px;
+          background: #CCCBC9;
+          margin-top: 12px;
+          margin-left: 12px; }
+        .headda #head .headright .kuang .zuodian {
+          width: 3px;
+          height: 3px;
+          border-radius: 50%;
+          background: #000000;
+          position: absolute;
+          left: 9px;
+          top: 53px; }
+        .headda #head .headright .kuang .youdian {
+          width: 3px;
+          height: 3px;
+          border-radius: 50%;
+          background: #000000;
+          position: absolute;
+          left: 182px;
+          top: 53px; }
+      .headda #head .headright .jiantou {
+        width: 0px;
+        height: 0px;
+        border-top: 0;
+        border-left: 8px solid #13587F;
+        border-bottom: 8px solid #EDF2F5;
+        border-right: 8px solid #13587F;
+        position: absolute;
+        left: 22px;
+        top: 52px; }
+
+.headright .headsou {
+  width: 340px;
+  height: 35px;
+  float: left;
+  border: 2px solid #B8C3CE;
+  border-radius: 50px; }
