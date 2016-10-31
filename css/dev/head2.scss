@@ -3,130 +3,139 @@ body{
     height: 3000px;
     position: relative;
 }
-#head{
-    width: 100%;
-    height: 102px;
+.headda{
+    @include wh(100%,102px);
     background:#13587F;
-    position: absolute;
-}
-.headleft{
-    width: 205px;
-    height: 100%;
-    background: red;
-    float:left;
-}
-.headmiddle{
+    #head{
+        width: 1200px;
+        height: 102px;
+        margin: 0 auto;
+        .headleft{
+            width: 205px;
+            height: 100%;
+            background: red;
+            float:left;
+            margin: {
+                left: -233px;
+            };
+        }
+        .headmiddle{
+            height: 100%;
+            border-color: green;
+            float: left;
+            margin-left: 27px;
+            padding-top: 15px;
+            ul{
+                width: 175px;
+                height: 100%;
+                float: left;
+                padding: 10px;
+                font-size: 15px;
+                color:#FFFFFF;
+                li{
+                    a{
+                         color: #FFFFFF;
+                    }
+                    img{
+                        display: block;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                    }
+                }
+            }
+        }
+        .headright{
+            height: 100%;
+            float: right;
+            margin-left: 0px;
+            padding-top: 30px;
+            .headsou{
+                width: 300px;
+                height: 35px;
+                float:left;
+            //  border:2px solid #B8C3CE;
+                border-radius: 50px;
+                .dian{
+  
+                    float: left;
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    padding-right: 15px;
+                }
+                .da{
+                    float: right;
+                    margin-top: 3px;
+                    margin-right: 4px;
+                }
+                #zhen{
+                    width:130px;
+                    height: 36px;
+                    float: left;
+                    border: 0;
+                    background: none;
+                }
+            }
+            .kuang{
+                width: 196px;
+                height: 96px;
+                position: absolute;
+                left: 5px;
+                top: 60px;
+                border: 1px solid #B3A13A;
+                background: #EDF2F5;
+                border-radius: 5px;
+                font-size: 12px;
+                opacity: 0.9;
+                z-index: 10;
+                .kuangshang{
+                    margin-top: 25px;
+                    margin-left: 8px;
+                    position: relative;
+                }
+                .kuangxia{
+                    margin-top: 13px;
+                    margin-left: 8px;
+                }
+                .hengxian{
+                    width: 170px;
+                    height: 1px;
+                    background:#CCCBC9;
+                    margin-top:12px ;
+                    margin-left:12px ;
+                }
+                .zuodian{
+                    width: 3px;
+                    height: 3px;
+                    border-radius: 50%;
+                    background: #000000;
+                    position: absolute;
+                    left:9px;
+                    top:53px;
+                  
+                }
+                .youdian{
+                    width: 3px;
+                    height: 3px;
+                    border-radius: 50%;
+                    background: #000000;
+                    position: absolute;
+                    left:182px;
+                    top:53px;
+                  
+                }
+            }
+            .jiantou{
+                width: 0px;
+                height: 0px;
+                border-top:0;
+                border-left:8px solid #13587F ;
+                border-bottom: 8px solid #EDF2F5  ;
+                border-right:8px solid #13587F ;
+                position: absolute;
+                left:22px;
+                top:52px;
+            }
+        }
+    }
     
-    height: 100%;
-    border-color: green;
-    float: left;
-    margin-left: 27px;
-    padding-top: 15px;
-}
-.headmiddle ul{
-    width: 175px;
-    height: 100%;
-    float: left;
-    padding: 10px;
-    font-size: 15px;
-    color:#FFFFFF;
-}
-.headmiddle ul li a{
-    color: #FFFFFF;
-   }
-.headmiddle ul li img{
-    display: block;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}  
-.headright{
-    height: 100%;
-    float: left;
-    margin-left: 0px;
-    padding-top: 30px;
-    position: relative;}
-
-.headright .headsou{
-    width: 300px;
-    height: 35px;
-    float:left;
-//  border:2px solid #B8C3CE;
-    border-radius: 50px;}
-.headright .headsou .dian{
-  
-    float: left;
-    margin-top: 5px;
-    margin-left: 10px;
-    padding-right: 15px;
-}
-.headright .headsou .da{
-    float: right;
-    margin-top: 3px;
-    margin-right: 4px;}
-.headright .headsou #zhen{
-    width:130px;
-    height: 36px;
-    float: left;
-    border: 0;
-    background: none;
-}
-.kuang{
-    width: 196px;
-    height: 96px;
-    position: absolute;
-    top:68px;
-    left:950px;
-    border: 1px;
-    background: #EDF2F5;
-    border-radius: 5px;
-    font-size: 12px;
-    opacity: 0.9;
-    
-}
-.jiantou{
-    width: 0px;
-    height: 0px;
-    border-top:0;
-    border-left:8px solid #13587F ;
-    border-bottom: 8px solid #EDF2F5  ;
-    border-right:8px solid #13587F ;
-    position: absolute;
-    left:965px;
-    top:60px;
-}
-.kuang .kuangshang{
-    margin-top: 25px;
-    margin-left: 8px;
-    position: relative;
-}
-.kuang .kuangxia{
-    margin-top: 13px;
-    margin-left: 8px;
-}
-.kuang .hengxian{
-    width: 170px;
-    height: 1px;
-    background:#CCCBC9;
-    margin-top:12px ;
-    margin-left:12px ;
-}
-.kuang .zuodian{
-    width: 3px;
-    height: 3px;
-    border-radius: 50%;
-    background: #000000;
-    position: absolute;
-    left:9px;
-    top:53px;
-  
-}
-.kuang .youdian{
-    width: 3px;
-    height: 3px;
-    border-radius: 50%;
-    background: #000000;
-    position: absolute;
-    left:182px;
-    top:53px;
-  
 }
