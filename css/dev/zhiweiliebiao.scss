@@ -6,7 +6,12 @@ body{
 .headda{
      width: 100%;
      background:#13587F;
+     opacity: 0.5;
      height: 102px;
+     position: absolute;
+     top:0;
+     left:0;
+     z-index: 1000;
     #head{
         width: $neikuan;
         height: 102px;
@@ -111,7 +116,6 @@ body{
                 position:absolute;
                 left:0;
                 top:0;
-                width:1200px;
                 opacity:0;
             }
             .list_first{
