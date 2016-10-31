@@ -5,6 +5,8 @@
   margin: 0;
   list-style: none;
   box-sizing: border-box;
+  font-family: "微软雅黑";
+  color: #929292;
 }
 
 a {
@@ -13,6 +15,7 @@ a {
 
 img {
   border: 0;
+  vertical-align: middle;
 }
 
 /*上下居中:@include tb*/
@@ -22,10 +25,14 @@ img {
 /*宽高:@include wh($w,$h)*/
 /*调试所用边框：@include border*/
 /*图片居中：@include img-center*/
+body {
+  background: #F4F4F4;
+}
+
 .body {
   width: 1200px;
   margin: 0 auto;
-  background: #fff;
+  background: #F4F4F4;
 }
 
 .sousuo {
@@ -37,7 +44,8 @@ img {
   width: 900px;
   height: 80px;
   float: left;
-  boder: 1px solid #CCCCCC;
+  background: #F4F4F4;
+  border: 1px solid #cccccc;
   font-size: 19px;
   color: #CCCCCC;
 }
@@ -291,4 +299,95 @@ img {
   float: left;
   margin-right: 11px;
   border: 1px solid #CCCCCC;
+}
+
+.qiye {
+  padding-top: 74px;
+  height: 343px;
+}
+
+.qiye .tujian {
+  margin-top: 63px;
+}
+
+.qiye .tujian .tujianqiye {
+  margin-right: 29px;
+  border-radius: 10px;
+  width: 278px;
+  height: 279px;
+  float: left;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+}
+
+.qiye .tujian .tujianqiye .hid {
+  width: 278px;
+  height: 279px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  padding-top: 49px;
+  border: 1px solid #BCBDBC;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+}
+
+.qiye .tujian .tujianqiye:hover .hid {
+  opacity: 1;
+}
+
+.qiye .tujian .last {
+  margin-right: 0;
+}
+
+.hid .span {
+  font-size: 17px;
+  text-align: center;
+  display: block;
+  color: #fff;
+}
+
+.hid .xian {
+  width: 34px;
+  height: 1px;
+  display: block;
+  margin-left: 120px;
+  margin-top: 20px;
+  background: #fff;
+  text-align: center;
+  line-height: 37px;
+}
+
+.hid p {
+  padding-left: 28px;
+  padding-right: 28px;
+  text-indent: 2em;
+  font-size: 13px;
+  color: #fff;
+}
+
+.hid .more {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  width: 123px;
+  height: 34px;
+  margin: 43px auto;
+  text-align: center;
+  line-height: 34px;
+}
+
+.hid .more a {
+  color: #fff;
+}
+
+.hid .more a b {
+  font-size: 10px;
+  color: #fff;
+}
+
+.hid .more a span {
+  font-size: 10px;
+  color: #fff;
 }

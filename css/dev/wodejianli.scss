@@ -1,5 +1,5 @@
 @import 'base';
-.zhezhao{
+    .zhezhao{
 	width:1920px;
 	height:4800px;
 	background:#000;
@@ -23,22 +23,24 @@
 	    background: #EFEFEF;
 	    top:107px;
 	    z-index: 2;
-	 .jl3box{
+	.jl3box{
 	     @include lr;
 	     top:123px;
 	     width:855px;
 	     height: 324px;
-	  .three1pic{
+	.three1pic{
 	      width: 268px;
 	      height: 324px;
 	      float: left;
-	   .xhao{
+	.xhao{
 	       position:absolute;
+	       display: block;
 	       left:-13px;
 	       top:-13px;
 	       z-index: 5;
 	   }
-	   .three1picwz{
+	.three1picwz{
+	       display: block;
 	       position: absolute;
 	       left:0;
 	       top:267px;
@@ -61,6 +63,7 @@
           margin-left: 25px;
           margin-right: 25px;
       .xhao{
+          display: block;
            position:absolute;
            left:-13px;
            top:-13px;
@@ -92,14 +95,17 @@
          width:855px;
          height:78px;
     .box3name1{
+        display: block;
         float: left;
         margin-left:50px;
     }
     .box3name2{
+        display: block;
         float: left;
         margin-left:140px;
     }
     .box3name3{
+        display: block;
         float: left;
         margin-left:140px;
     }
@@ -194,12 +200,14 @@
        }
       }
       .three3pic{
+          display: block;
           z-index: 10;
           width: 268px;
           height: 324px;
           float: left;
           background: #10C8F0;
         .three1picwz{
+            display: block;
            position: absolute;
            left:0;
            top:267px;
@@ -218,7 +226,7 @@
            background: #fff;
            @include  center;
        }
-       .jiax{
+     .jiax{
            width: 102px;
            height: 14px;
            background: #fff;
@@ -227,6 +235,7 @@
       }
      }
      .save{
+         display: block;
         @include lr;
         top:470px;
         width:855px;
