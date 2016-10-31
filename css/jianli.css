@@ -161,3 +161,18 @@ img {
         float: right; }
         .jianli .content .fanye .right p {
           float: left; }
+
+.zhezhao {
+  position: absolute;
+  top: -864px;
+  left: -345px;
+  z-index: 333;
+  transform: scale(0);
+  opacity: 0;
+  transition: all 1s linear;
+  pointer-events: none;
+  overflow: hidden; }
+
+.jianli .content .say:hover .zhezhao-h {
+  transform: scale(1);
+  opacity: 0.9; }
