@@ -4,13 +4,16 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+  color: #929292; }
 
 a {
   text-decoration: none; }
 
 img {
-  border: 0; }
+  border: 0;
+  vertical-align: middle; }
 
 /*上下居中:@include tb*/
 /*左右居中: @include lr*/
@@ -18,6 +21,7 @@ img {
 /*圆:@include yuan*/
 /*宽高:@include wh($w,$h)*/
 /*调试所用边框：@include border*/
+/*图片居中：@include img-center*/
 .zhezhao {
   width: 1920px;
   height: 4800px;
@@ -61,10 +65,12 @@ img {
           float: left; }
           .zhezhao .jianli-first .jlxiangqing .jl3box .three1pic .xhao {
             position: absolute;
+            display: block;
             left: -13px;
             top: -13px;
             z-index: 5; }
-          .zhezhao .jianli-first .jlxiangqing .jl3box .three1pic .three1picwz {
+         .zhezhao .jianli-first .jlxiangqing .jl3box .three1pic .three1picwz {
+            display: block;
             position: absolute;
             left: 0;
             top: 267px;
@@ -73,7 +79,7 @@ img {
             background: #000;
             opacity: 0.5;
             line-height: 56px; }
-            .zhezhao .jianli-first .jlxiangqing .jl3box .three1pic .three1picwz p {
+         .zhezhao .jianli-first .jlxiangqing .jl3box .three1pic .three1picwz p {
               text-align: center;
               color: #fff;
               font-size: 20px; }
@@ -84,6 +90,7 @@ img {
           margin-left: 25px;
           margin-right: 25px; }
           .zhezhao .jianli-first .jlxiangqing .jl3box .three2pic .xhao {
+            display: block;
             position: absolute;
             left: -13px;
             top: -13px;
@@ -122,12 +129,15 @@ img {
         width: 855px;
         height: 78px; }
         .zhezhao .jianli-first .jlxiangqing .box3name .box3name1 {
+          display: block;
           float: left;
           margin-left: 50px; }
         .zhezhao .jianli-first .jlxiangqing .box3name .box3name2 {
+          display: block;
           float: left;
           margin-left: 140px; }
         .zhezhao .jianli-first .jlxiangqing .box3name .box3name3 {
+          display: block;
           float: left;
           margin-left: 140px; }
       .zhezhao .jianli-first .jlxiangqing .save {
@@ -219,12 +229,14 @@ img {
               color: #fff;
               font-size: 20px; }
         .zhezhao .jianli-two .toujianji .jl3box .three3pic {
+          display: block;
           z-index: 10;
           width: 268px;
           height: 324px;
           float: left;
           background: #10C8F0; }
           .zhezhao .jianli-two .toujianji .jl3box .three3pic .three1picwz {
+            display: block;
             position: absolute;
             left: 0;
             top: 267px;
@@ -256,6 +268,7 @@ img {
             bottom: 0;
             margin: auto; }
       .zhezhao .jianli-two .toujianji .save {
+        display: block;
         position: absolute;
         left: 0;
         right: 0;
