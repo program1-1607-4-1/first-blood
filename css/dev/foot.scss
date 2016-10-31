@@ -1,0 +1,81 @@
+@import "base";
+.foot{
+    width: 100%;
+    height: 230px;
+    background: #2D2D2D;
+    position: relative;
+}
+.footleft img{
+    position: absolute;
+    left:282px;
+    top: 59px;
+}
+.footmiddle{
+    height: 100%;
+    width:698px;
+    position: absolute;
+    left:336px;
+ 
+}
+.footmiddle .dianshang{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    position: absolute;
+    top:55px;
+    left:49px;
+    background: #B4B4B4;
+}
+.footmiddle .dianxia{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    position: absolute;
+    top:156px;
+    left:49px;
+    background: #B4B4B4;
+}
+
+.footmiddle .xian{
+    width: 1px;
+    height: 100px;
+    position:absolute;
+    top: 57px;
+    left:50px;
+    background: #4D4D4D;
+    
+}
+.footright{
+    height: 107px;
+    width: 107px;
+    position: absolute;
+    top: 55px;
+    left:1034px;
+    background: #24B0FF;
+}
+.footmiddle .shang{
+    position: absolute;
+    top: 55px;
+    left: 90px;
+    font-size: 14px;
+}
+.footmiddle .xuxian{
+    width: 190px;
+    height: 2px;
+    position: absolute;
+    top:70px;
+    left:90px ;
+    
+    
+}
+.footmiddle .zhong{
+    position: absolute;
+    top: 96px;
+    left:90px;
+    font-size: 13px;
+}
+.footmiddle .xia{
+    position: absolute;
+    left:88px;
+    top:125px;
+}
