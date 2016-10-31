@@ -1,12 +1,14 @@
-@import"base";
+@import "base";
+body{
+    height: 3000px;
+    position: relative;
+}
 .headda{
-     width: 100%;
-     background:#13587F;
-     height: 102px;
+    @include wh(100%,102px);
+    background:#13587F;
     #head{
-        width: $neikuan;
+        width: 1200px;
         height: 102px;
-        background:#13587F;
         margin: 0 auto;
         .headleft{
             width: 205px;
@@ -14,7 +16,7 @@
             background: red;
             float:left;
             margin: {
-                left:-206px ;
+                left: -233px;
             };
         }
         .headmiddle{
@@ -32,13 +34,13 @@
                 color:#FFFFFF;
                 li{
                     a{
-                        color: #FFFFFF;
+                         color: #FFFFFF;
                     }
                     img{
                         display: block;
                         padding-top: 5px;
                         padding-bottom: 5px;
-                    }  
+                    }
                 }
             }
         }
@@ -47,12 +49,11 @@
             float: right;
             margin-left: 0px;
             padding-top: 30px;
-            position: relative;
             .headsou{
                 width: 300px;
                 height: 35px;
                 float:left;
-                border:2px solid #B8C3CE;
+            //  border:2px solid #B8C3CE;
                 border-radius: 50px;
                 .dian{
   
@@ -74,7 +75,67 @@
                     background: none;
                 }
             }
+            .kuang{
+                width: 196px;
+                height: 96px;
+                position: absolute;
+                left: 5px;
+                top: 60px;
+                border: 1px solid #B3A13A;
+                background: #EDF2F5;
+                border-radius: 5px;
+                font-size: 12px;
+                opacity: 0.9;
+                z-index: 10;
+                .kuangshang{
+                    margin-top: 25px;
+                    margin-left: 8px;
+                    position: relative;
+                }
+                .kuangxia{
+                    margin-top: 13px;
+                    margin-left: 8px;
+                }
+                .hengxian{
+                    width: 170px;
+                    height: 1px;
+                    background:#CCCBC9;
+                    margin-top:12px ;
+                    margin-left:12px ;
+                }
+                .zuodian{
+                    width: 3px;
+                    height: 3px;
+                    border-radius: 50%;
+                    background: #000000;
+                    position: absolute;
+                    left:9px;
+                    top:53px;
+                  
+                }
+                .youdian{
+                    width: 3px;
+                    height: 3px;
+                    border-radius: 50%;
+                    background: #000000;
+                    position: absolute;
+                    left:182px;
+                    top:53px;
+                  
+                }
+            }
+            .jiantou{
+                width: 0px;
+                height: 0px;
+                border-top:0;
+                border-left:8px solid #13587F ;
+                border-bottom: 8px solid #EDF2F5  ;
+                border-right:8px solid #13587F ;
+                position: absolute;
+                left:22px;
+                top:52px;
+            }
         }
     }
+    
 }
-
