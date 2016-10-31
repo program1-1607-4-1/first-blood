@@ -1,0 +1,176 @@
+@import "base";
+.jianli{
+    width:1920px;
+    height: 4800px;
+    background: #FFFFFF;
+    .content{
+        width: 1200px;
+        height:100px;
+        @include lr;
+        .title{
+            width: 1200px;
+            height: 58px;
+            margin-top: 140px;
+            .topborder{
+                position: absolute;
+                right:0;
+                top:0;
+                width: 986px;
+                height: 1px;
+                background: #B9B9B9;
+            }
+            img{
+                margin-top: 18px;
+                display: block;
+                float: left;
+            }
+            p{   
+                display: block;
+                float: left;
+                margin-top: 10px;
+                margin-left: 3px;
+                font-size:20px;
+                line-height: 58px;
+            }
+            .right{
+                line-height: 58px;
+                float: right;
+                font-size: 14px;
+                a{
+                    color:#36A3FE;
+                }
+                img{
+                    margin-top: 18px;
+                }
+            }
+        }
+        .shejizhongjie{
+            margin-top:100px;
+            width: 1200px;
+            height: 90px;
+            border-bottom:1px dashed #B9B9B9;
+            .circle1{
+                position: absolute;
+                left:0;
+                bottom:-2px;
+                width:4px;
+                height: 4px;
+                border-radius: 50%;
+                background:#B9B9B9;
+            }
+            .circle2{
+                position: absolute;
+                right:0;
+                bottom:-2px;
+                width:4px;
+                height: 4px;
+                border-radius: 50%;
+                background:#B9B9B9;
+            }
+            span{
+                display: block;
+                width: 180px;
+                height: 22px;
+                color:#000;
+                font-size: 18px;
+            }
+            img{
+                margin-top: 20px;
+            }
+            .right{
+                position: absolute;
+                right:0;
+                top:-26px;
+            }
+        }
+        .firstcontent{
+            width: 1200px;
+            height: 365px;
+            margin-top: 40px;
+            .left{
+                float: left;
+            }
+            .right{
+                width:573px;
+                height: 351px;
+                float: left;
+                img{
+                    margin-left: 10px;
+                    margin-top:25px;
+                }
+                .rightwz{
+                    font-size: 14px;
+                    p{
+                        margin-top: 20px;
+                        margin-left:50px;
+                    }
+                }
+            }
+        }
+        .say{
+            
+            margin-left:-15px;
+            margin-top:70px;
+        }
+        .xianborder{
+            width: 1200px;
+            border:1px dashed #B9B9B9;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .threecontent{
+            width: 1200px;
+            height: 643px;
+            background: #F4F4F4;
+            .title3{
+                width: 210px;
+                height: 40px;
+                margin-left: 47px;
+                img{
+                    margin-top: 20px;
+                }
+            }
+            .content3{
+                width: 210px;
+                height: 40px;
+                margin-left: 47px;
+                img{
+                    margin-top: 40px;
+                }
+            }
+            .rightwz{
+                width:884px;
+                height: 190px;
+                font-size: 14px;
+                margin-left:273px ;
+                p{
+                    margin-top: 20px;
+                }
+            }
+            .imgs{
+                margin-left:700px ;
+            }
+        }
+        .fanye{
+            width: 1200px;
+            height: 50px;
+            line-height: 50px;
+            border-bottom: 1px solid #DEDEDE;
+            border-top: 1px solid #DEDEDE;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            .left{
+                float: left;
+                p{
+                    float: left;
+                }
+            }
+            .right{
+                float: right;
+                p{
+                    float: left;
+                }
+            }
+        }
+    }
+}
