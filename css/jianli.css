@@ -5,8 +5,7 @@
   margin: 0;
   list-style: none;
   box-sizing: border-box;
-  font-family: "微软雅黑";
-  color: #929292; }
+  font-family: "微软雅黑"; }
 
 a {
   text-decoration: none; }
@@ -28,7 +27,6 @@ img {
   background: #FFFFFF; }
   .jianli .content {
     width: 1200px;
-    height: 100px;
     position: absolute;
     left: 0;
     right: 0;
