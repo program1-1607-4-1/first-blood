@@ -1,0 +1,293 @@
+@charset "UTF-8";
+* {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+  color: #929292; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  vertical-align: middle; }
+
+/*上下居中:@include tb*/
+/*左右居中: @include lr*/
+/*居中:@include center*/
+/*圆:@include yuan*/
+/*宽高:@include wh($w,$h)*/
+/*调试所用边框：@include border*/
+/*图片居中：@include img-center*/
+.zhezhao {
+  width: 1920px;
+  height: 4800px;
+  background: #000; }
+  .zhezhao .jianli-first {
+    width: 957px;
+    height: 831px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 450px; }
+    .zhezhao .jianli-first .myjianli {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      z-index: 3;
+      width: 318px;
+      height: 189px;
+      background: url(../img/wodejianlitu/jl.png);
+      box-shadow: 0px 2px #A2B8BE; }
+    .zhezhao .jianli-first .jlxiangqing {
+      position: absolute;
+      width: 954px;
+      height: 640px;
+      background: #EFEFEF;
+      top: 107px;
+      z-index: 2; }
+      .zhezhao .jianli-first .jlxiangqing .jl3box {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 123px;
+        width: 855px;
+        height: 324px; }
+        .zhezhao .jianli-first .jlxiangqing .jl3box .three1pic {
+          width: 268px;
+          height: 324px;
+          float: left; }
+          .zhezhao .jianli-first .jlxiangqing .jl3box .three1pic .xhao {
+            position: absolute;
+            display: block;
+            left: -13px;
+            top: -13px;
+            z-index: 5; }
+          .zhezhao .jianli-first .jlxiangqing .jl3box .three1pic .three1picwz {
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 267px;
+            width: 268px;
+            height: 56px;
+            background: #000;
+            opacity: 0.5;
+            line-height: 56px; }
+            .zhezhao .jianli-first .jlxiangqing .jl3box .three1pic .three1picwz p {
+              text-align: center;
+              color: #fff;
+              font-size: 20px; }
+        .zhezhao .jianli-first .jlxiangqing .jl3box .three2pic {
+          width: 268px;
+          height: 324px;
+          float: left;
+          margin-left: 25px;
+          margin-right: 25px; }
+          .zhezhao .jianli-first .jlxiangqing .jl3box .three2pic .xhao {
+            display: block;
+            position: absolute;
+            left: -13px;
+            top: -13px;
+            z-index: 5; }
+        .zhezhao .jianli-first .jlxiangqing .jl3box .three3pic {
+          width: 268px;
+          height: 324px;
+          float: left;
+          background: #10C8F0; }
+          .zhezhao .jianli-first .jlxiangqing .jl3box .three3pic .jiay {
+            width: 14px;
+            height: 102px;
+            background: #fff;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto; }
+          .zhezhao .jianli-first .jlxiangqing .jl3box .three3pic .jiax {
+            width: 102px;
+            height: 14px;
+            background: #fff;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto; }
+      .zhezhao .jianli-first .jlxiangqing .box3name {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 471px;
+        width: 855px;
+        height: 78px; }
+        .zhezhao .jianli-first .jlxiangqing .box3name .box3name1 {
+          display: block;
+          float: left;
+          margin-left: 50px; }
+        .zhezhao .jianli-first .jlxiangqing .box3name .box3name2 {
+          display: block;
+          float: left;
+          margin-left: 140px; }
+        .zhezhao .jianli-first .jlxiangqing .box3name .box3name3 {
+          display: block;
+          float: left;
+          margin-left: 140px; }
+      .zhezhao .jianli-first .jlxiangqing .save {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 545px;
+        width: 855px;
+        height: 78px;
+        text-align: center; }
+    .zhezhao .jianli-first .fcircle {
+      width: 431px;
+      height: 78px;
+      background: url(../img/wodejianlitu/fcircle.png);
+      position: absolute;
+      left: 104px;
+      top: 745px; }
+    .zhezhao .jianli-first .jlpages {
+      width: 305px;
+      height: 108px;
+      position: absolute;
+      left: 533px;
+      top: 745px;
+      background: url(../img/wodejianlitu/jlpages.png); }
+  .zhezhao .jianli-two {
+    width: 957px;
+    height: 742px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 1330px; }
+    .zhezhao .jianli-two .jllianxi {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      z-index: 3;
+      width: 176px;
+      height: 169px;
+      background: url(../img/wodejianlitu/xin.png) no-repeat; }
+    .zhezhao .jianli-two .toujianji {
+      position: absolute;
+      width: 954px;
+      height: 565px;
+      background: #EFEFEF;
+      top: 95px;
+      z-index: 2; }
+      .zhezhao .jianli-two .toujianji .sbx {
+        position: absolute;
+        left: 312px;
+        top: 287px;
+        z-index: 6; }
+      .zhezhao .jianli-two .toujianji .dbx {
+        position: absolute;
+        left: 517px;
+        top: 70px;
+        z-index: 6; }
+      .zhezhao .jianli-two .toujianji .jl3box {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 110px;
+        width: 855px;
+        height: 324px; }
+        .zhezhao .jianli-two .toujianji .jl3box .three1pic {
+          width: 268px;
+          height: 324px;
+          float: left; }
+        .zhezhao .jianli-two .toujianji .jl3box .three2pic {
+          width: 268px;
+          height: 324px;
+          float: left;
+          margin-left: 25px;
+          margin-right: 25px; }
+          .zhezhao .jianli-two .toujianji .jl3box .three2pic .three1picwz {
+            position: absolute;
+            left: 0;
+            top: 267px;
+            width: 268px;
+            height: 56px;
+            background: #000;
+            opacity: 0.7;
+            line-height: 56px; }
+            .zhezhao .jianli-two .toujianji .jl3box .three2pic .three1picwz p {
+              text-align: center;
+              color: #fff;
+              font-size: 20px; }
+        .zhezhao .jianli-two .toujianji .jl3box .three3pic {
+          display: block;
+          z-index: 10;
+          width: 268px;
+          height: 324px;
+          float: left;
+          background: #10C8F0; }
+          .zhezhao .jianli-two .toujianji .jl3box .three3pic .three1picwz {
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 267px;
+            width: 268px;
+            height: 56px;
+            line-height: 56px; }
+            .zhezhao .jianli-two .toujianji .jl3box .three3pic .three1picwz p {
+              text-align: center;
+              color: #fff;
+              font-size: 20px; }
+          .zhezhao .jianli-two .toujianji .jl3box .three3pic .jiay {
+            width: 14px;
+            height: 102px;
+            background: #fff;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto; }
+          .zhezhao .jianli-two .toujianji .jl3box .three3pic .jiax {
+            width: 102px;
+            height: 14px;
+            background: #fff;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto; }
+      .zhezhao .jianli-two .toujianji .save {
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 470px;
+        width: 855px;
+        height: 78px;
+        text-align: center; }
+    .zhezhao .jianli-two .fcircle {
+      width: 431px;
+      height: 78px;
+      background: url(../img/wodejianlitu/fcircle.png);
+      position: absolute;
+      left: 104px;
+      top: 660px; }
+    .zhezhao .jianli-two .jlpages {
+      width: 305px;
+      height: 108px;
+      position: absolute;
+      left: 533px;
+      top: 660px;
+      background: url(../img/wodejianlitu/jlpages.png); }
