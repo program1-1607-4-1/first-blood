@@ -91,7 +91,7 @@ body{
 			width:50%;
 			height:100%;
 			float:left;
-			a{
+			.wangyeleftone{
 				width:114px;
 				height:114px;
 				display:inline-block;
@@ -143,6 +143,7 @@ body{
 				}
 			}
 		}
+
 		.wangye-right{
 			.wz{
 				padding:{
@@ -206,7 +207,7 @@ body{
 	}
 		.wangye:nth-child(1){
 			.wangye-left{
-				a{
+				.wangyeleftone{
 					background:url($img-url+'zwlbimg/1.png') no-repeat;
 				}
 			}
@@ -214,7 +215,7 @@ body{
 		}
 		.wangye:nth-child(2){
 			.wangye-left{
-				a{
+				.wangyeleftone{
 					background:url($img-url+'zwlbimg/2.png') no-repeat;
 				}
 			}
@@ -222,7 +223,7 @@ body{
 		}
 		.wangye:nth-child(3){
 			.wangye-left{
-				a{
+				.wangyeleftone{
 					background:url($img-url+'zwlbimg/3.png') no-repeat;
 					background-position:100% 100%;
 					overflow:hidden;
@@ -232,14 +233,14 @@ body{
 		}
 		.wangye:nth-child(4){
 			.wangye-left{
-				a{
+				.wangyeleftone{
 					background:url($img-url+'zwlbimg/4.png') no-repeat;
 				}
 			}
 		}
 		.wangye:nth-child(5){
 			.wangye-left{
-				a{
+				.wangyeleftone{
 					background:url($img-url+'zwlbimg/4.png') no-repeat;
 				}
 			}

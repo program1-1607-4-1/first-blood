@@ -120,7 +120,7 @@ body {
   float: left;
 }
 
-.shejishi .wangye .wangye-left a {
+.shejishi .wangye .wangye-left .wangyeleftone {
   width: 114px;
   height: 114px;
   display: inline-block;
@@ -226,25 +226,25 @@ body {
   background: #40D1F1;
 }
 
-.shejishi .wangye:nth-child(1) .wangye-left a {
+.shejishi .wangye:nth-child(1) .wangye-left .wangyeleftone {
   background: url("../img/zwlbimg/1.png") no-repeat;
 }
 
-.shejishi .wangye:nth-child(2) .wangye-left a {
+.shejishi .wangye:nth-child(2) .wangye-left .wangyeleftone {
   background: url("../img/zwlbimg/2.png") no-repeat;
 }
 
-.shejishi .wangye:nth-child(3) .wangye-left a {
+.shejishi .wangye:nth-child(3) .wangye-left .wangyeleftone {
   background: url("../img/zwlbimg/3.png") no-repeat;
   background-position: 100% 100%;
   overflow: hidden;
 }
 
-.shejishi .wangye:nth-child(4) .wangye-left a {
+.shejishi .wangye:nth-child(4) .wangye-left .wangyeleftone {
   background: url("../img/zwlbimg/4.png") no-repeat;
 }
 
-.shejishi .wangye:nth-child(5) .wangye-left a {
+.shejishi .wangye:nth-child(5) .wangye-left .wangyeleftone {
   background: url("../img/zwlbimg/4.png") no-repeat;
 }
 
