@@ -45,8 +45,6 @@ img{
 }
 /*宽高:@include wh($w,$h)*/
 @mixin wh($w,$h){
-
-     width: $w;
     width: $w;
     height: $h;
 }
