@@ -5,6 +5,7 @@
   margin: 0;
   list-style: none;
   box-sizing: border-box;
+  font-family: "微软雅黑";
 }
 
 a {
@@ -13,6 +14,7 @@ a {
 
 img {
   border: 0;
+  vertical-align: middle;
 }
 
 /*上下居中:@include tb*/

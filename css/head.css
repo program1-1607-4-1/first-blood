@@ -6,7 +6,10 @@
   list-style: none;
   box-sizing: border-box;
   font-family: "微软雅黑";
+<<<<<<< HEAD
   color: #929292;
+=======
+>>>>>>> 52b03bf2fa63e5b1be95cdad063d4f900b11ca50
 }
 
 a {
@@ -25,22 +28,40 @@ img {
 /*宽高:@include wh($w,$h)*/
 /*调试所用边框：@include border*/
 /*图片居中：@include img-center*/
+<<<<<<< HEAD
 #head {
+=======
+.headda {
+>>>>>>> 52b03bf2fa63e5b1be95cdad063d4f900b11ca50
   width: 100%;
-  height: 102px;
   background: #13587F;
-  position: relative;
-  z-index: 3;
+  height: 102px;
 }
 
-.headleft {
+.headda #head {
+  width: 1200px;
+  height: 102px;
+  background: #13587F;
+<<<<<<< HEAD
+  position: relative;
+  z-index: 3;
+=======
+  margin: 0 auto;
+>>>>>>> 52b03bf2fa63e5b1be95cdad063d4f900b11ca50
+}
+
+.headda #head .headleft {
   width: 205px;
   height: 100%;
   background: red;
   float: left;
+<<<<<<< HEAD
+=======
+  margin-left: -206px;
+>>>>>>> 52b03bf2fa63e5b1be95cdad063d4f900b11ca50
 }
 
-.headmiddle {
+.headda #head .headmiddle {
   height: 100%;
   border-color: green;
   float: left;
@@ -48,7 +69,7 @@ img {
   padding-top: 15px;
 }
 
-.headmiddle ul {
+.headda #head .headmiddle ul {
   width: 175px;
   height: 100%;
   float: left;
@@ -57,25 +78,29 @@ img {
   color: #FFFFFF;
 }
 
+<<<<<<< HEAD
 .headmiddle ul li a {
+=======
+.headda #head .headmiddle ul li a {
+>>>>>>> 52b03bf2fa63e5b1be95cdad063d4f900b11ca50
   color: #FFFFFF;
 }
 
-.headmiddle ul li img {
+.headda #head .headmiddle ul li img {
   display: block;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-.headright {
+.headda #head .headright {
   height: 100%;
-  float: left;
+  float: right;
   margin-left: 0px;
   padding-top: 30px;
   position: relative;
 }
 
-.headright .headsou {
+.headda #head .headright .headsou {
   width: 300px;
   height: 35px;
   float: left;
@@ -83,20 +108,20 @@ img {
   border-radius: 50px;
 }
 
-.headright .headsou .dian {
+.headda #head .headright .headsou .dian {
   float: left;
   margin-top: 5px;
   margin-left: 10px;
   padding-right: 15px;
 }
 
-.headright .headsou .da {
+.headda #head .headright .headsou .da {
   float: right;
   margin-top: 3px;
   margin-right: 4px;
 }
 
-.headright .headsou #zhen {
+.headda #head .headright .headsou #zhen {
   width: 130px;
   height: 36px;
   float: left;
