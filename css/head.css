@@ -6,20 +6,14 @@
   list-style: none;
   box-sizing: border-box;
   font-family: "微软雅黑";
-<<<<<<< HEAD
-  color: #929292;
-=======
->>>>>>> 52b03bf2fa63e5b1be95cdad063d4f900b11ca50
-}
+  color: #929292; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 img {
   border: 0;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 /*上下居中:@include tb*/
 /*左右居中: @include lr*/
@@ -28,103 +22,72 @@ img {
 /*宽高:@include wh($w,$h)*/
 /*调试所用边框：@include border*/
 /*图片居中：@include img-center*/
-<<<<<<< HEAD
+body {
+  height: 3000px; }
+
 #head {
-=======
-.headda {
->>>>>>> 52b03bf2fa63e5b1be95cdad063d4f900b11ca50
   width: 100%;
-  background: #13587F;
-  height: 102px;
-}
-
-.headda #head {
-  width: 1200px;
   height: 102px;
   background: #13587F;
-<<<<<<< HEAD
-  position: relative;
-  z-index: 3;
-=======
-  margin: 0 auto;
->>>>>>> 52b03bf2fa63e5b1be95cdad063d4f900b11ca50
-}
-
-.headda #head .headleft {
+ 
+.headleft {
   width: 205px;
   height: 100%;
   background: red;
-  float: left;
-<<<<<<< HEAD
-=======
-  margin-left: -206px;
->>>>>>> 52b03bf2fa63e5b1be95cdad063d4f900b11ca50
-}
+  float: left; }
 
-.headda #head .headmiddle {
+.headmiddle {
   height: 100%;
   border-color: green;
   float: left;
   margin-left: 27px;
-  padding-top: 15px;
-}
+  padding-top: 15px; }
 
-.headda #head .headmiddle ul {
+.headmiddle ul {
   width: 175px;
   height: 100%;
   float: left;
   padding: 10px;
   font-size: 15px;
-  color: #FFFFFF;
-}
+  color: #FFFFFF; }
 
-<<<<<<< HEAD
 .headmiddle ul li a {
-=======
-.headda #head .headmiddle ul li a {
->>>>>>> 52b03bf2fa63e5b1be95cdad063d4f900b11ca50
-  color: #FFFFFF;
-}
+  color: #FFFFFF; }
 
-.headda #head .headmiddle ul li img {
+.headmiddle ul li img {
   display: block;
   padding-top: 5px;
-  padding-bottom: 5px;
-}
+  padding-bottom: 5px; }
 
-.headda #head .headright {
+.headright {
   height: 100%;
-  float: right;
+  float: left;
   margin-left: 0px;
   padding-top: 30px;
-  position: relative;
-}
+  position: relative; }
 
-.headda #head .headright .headsou {
+.headright .headsou {
   width: 300px;
   height: 35px;
   float: left;
   border: 2px solid #B8C3CE;
-  border-radius: 50px;
-}
+  border-radius: 50px; }
 
-.headda #head .headright .headsou .dian {
+.headright .headsou .dian {
   float: left;
   margin-top: 5px;
   margin-left: 10px;
-  padding-right: 15px;
-}
+  padding-right: 15px; }
 
-.headda #head .headright .headsou .da {
+.headright .headsou .da {
   float: right;
   margin-top: 3px;
-  margin-right: 4px;
-}
+  margin-right: 4px; }
 
-.headda #head .headright .headsou #zhen {
+.headright .headsou #zhen {
   width: 130px;
   height: 36px;
   float: left;
   border: 0;
-  background: none;
-}
+  background: none; }
+
