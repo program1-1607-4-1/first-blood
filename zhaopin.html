@@ -1,13 +1,485 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/zhaopin.css"/>
-		<script src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/zhaopin.js"></script>
-	</head>
-	<body>
-	    <div class="zp_banner"></div>
-	</body>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/zhaopin.css"/>
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/zhaopin.js"></script>
+    </head>
+    <body>
+        <div class="headda">
+             <div id="head">
+                <div class="headleft">
+                    <div class="headlogo">
+                            <img src="img/headfoot/1.png" alt="" />
+                    </div>
+                </div>
+                <div class="headmiddle">
+                    <ul>
+                        <li>Display of works</li>
+                        <li><img src="img/headfoot/7.png" alt="" />
+                            <a href="">作品展示</a></li>
+                            <img src="img/headfoot/2.png" alt="" />
+                    </ul>
+                    <ul>
+                        <li>Display of works</li>
+                        <li><img src="img/headfoot/7.png" alt="" />
+                            <a href="">行业新闻</a></li>
+                    </ul>
+                    <ul>
+                        <li>Display of works</li>
+                        <li><img src="img/headfoot/7.png" alt="" />
+                            <a href="">视频介绍</a></li>
+                    </ul>
+                    <ul>
+                        <li>Display of works</li>
+                        <li><img src="img/headfoot/8.png" alt="" />
+                            <a href="">招聘信息</a></li>
+                    </ul>
+                </div>
+                <div class="headright">
+                    <div class="headsou">
+                        <div class="dian">
+                          <img src="img/headfoot/3.png" alt="" />
+                        </div>
+                        <div class="da">
+                          <img src="img/headfoot/4.png" alt="" />
+                        </div>
+                        <input type="" name="zhen" id="zhen" value="" />
+                    </div>
+                    <div class="kuang">
+                        <div class="kuangshang">
+                            <input type="radio" name="la" id="" value="quan" />全部
+                            <input type="radio" name="la" id="" value="zuo" />作品
+                            <input type="radio" name="la" id="" value="wen" />文章
+                            <input type="radio" name="la" id="" value="qi" />企业
+                        </div>
+                        <div class="hengxian"></div>
+                        <div class="zuodian"></div>
+                        <div class="youdian"></div>
+                        <div class="kuangxia">
+                            <input type="radio" name="la" id="" value="she" />设计师
+                        </div>
+                    </div>
+                    <div class="jiantou"></div>
+                </div>
+            </div>
+        </div>
+        <div class="zp_banner"></div>
+        <div class="zp_xia">
+            <div class="zp_ye">
+                <div class="sanjiao sanjiaoL"></div>
+                <div class="sanjiao sanjiaoR"></div>
+                <div class="zp_ye_head">
+                    <div class="zpyh_nav">
+                        <span>保得利（北京）科技有限公司招聘</span>
+                        <h1>UI设计师</h1>
+                    </div>
+                    <div class="zpyh_tdjl">
+                        <div class="zpyh_tdjl_L">
+                            <div class="zpyh_tdjlL_1">
+                                <i>6K-10K</i> <span>/北京 /经验3-5年/大专及 以上/全职</span>
+                            </div>
+                            <div class="zpyh_tdjlL_2">
+                                <span>职位诱惑:五险一金带 薪年假弹性 上班各种补助…</span>
+                            </div>
+                            <div class="zpyh_tdjlL_3">
+                                <span>18:40 发布于山西优逸客科技有限公司</span>
+                            </div>
+                        </div>
+                        <div class="zpyh_tdjl_R">
+                            <div class="zpyh_tdjlR_1">
+                                <span class="zpyh_tdjlR_zhiwei">个职位</span>
+                                <span class="zpyh_tdjlR_tu"></span>
+                                <span>正在招聘</span>
+                            </div>
+                            <div class="zpyh_tdjlR_2">
+                                <a href="##"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zpyh_zyfbz">
+                        <span class="zpyh_biaoti">职位发布者</span>
+                        <div class="zpyh_zyfbz_tu">
+                            <a href="##">
+                                <img src="img/zhaopin/zhaopin_03.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="zpyh_zyfbz_name">
+                            <h1>徐虎</h1>
+                            <span>联合创始人</span>
+                        </div>
+                        <div class="zpyh_zyfbz_gsname">
+                            <span>保得利（北京）科技有限公司</span>
+                        </div>
+                        <div class="zpyh_zyfbz_lianxi">
+                            <a href="##">私信他</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="zp_ye_miaoshu">
+                    <div class="zp_ye_ms1">
+                        <div class="zpyms_bt">
+                            <div class="zpymsbt_tiao"></div>
+                            <div class="zpymsbt_yuan"></div>
+                            <div class="zpymsbt_zi">
+                                <span>職位</span>
+                                <h1>描述</h1>
+                            </div>
+                        </div>
+                        <div class="zpyms_neirong">
+                            <div class="zpyms_nr_bt">
+                                <span>岗位职责</span>
+                                <i class="job"><b>Job</b></i>
+                                <i><b>responsibilities</b></i>
+                            </div>
+                            <p>
+                                1)  负责用户界面设计与流程设计，根据产品原型进行具体效果图设计、视觉设计；
+                            </p>
+                            <p>
+                                2)  重视用户体验及互联网用户使用习惯，配合完成UI相关图形设计工作；
+                            </p>
+                            <p>
+                                3)  参与品牌规划和设计，提出对产品界面规划的见解，把控产品最终界面实现效果；
+                            </p>
+                            <p>
+                                4)  进行互联网、移动互联网产品及交互体验的前瞻研究，用与指导UI/UE设计工作。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="zp_ye_ms2">
+                        <div class="zpyms_tupian"></div>
+                        <div class="zpyms_neirong">
+                            <div class="zpyms_nr_bt">
+                                <span>岗位要求</span>
+                                <i class="job"><b>POST</b></i>
+                                <i><b>requirements</b></i>
+                            </div>
+                            <p>
+                                1)  精通使用相关设计软件，有网站、客户端等用户界面的设计经验及作品；
+                            </p>
+                            <p>
+                                 2)  二年以上的设计相关工作经验，有互联网行业从业经历；
+                            </p>
+                            <p>
+                                3)  有较强的美术功底，具有出色的艺术设计能力，能够灵活控制设计风格，把握时代前沿，富有创造力和激情；
+                            </p>
+                            <p>
+                                4)  有良好的团队合作精神，待人热忱，思维敏捷，良好人际沟通能力，有责任心和上进心。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="zp_ye_ms3">
+                        <div class="zpyms_tupian"></div>
+                        <div class="zpyms_bt">
+                            <div class="zpymsbt_tiao"></div>
+                            <div class="zpymsbt_yuan"></div>
+                            <div class="zpymsbt_zi">
+                                <span>工作</span>
+                                <h1>地点</h1>
+                            </div>
+                        </div>
+                        <div class="zpyms_neirong">
+                            <div class="zpyms_nr_img">
+                               <a href="##">
+                                   <img src="img/zhaopin/zhaopin_04.png" alt="" />
+                               </a>
+                            </div>
+                            <p>
+                                北京｜北京朝阳区百子湾路苹果社区南区1号楼B座1806室  
+                            </p>
+                            <p>
+                                上海｜上海桃子社区南区1号楼B座1806室
+                            </p>
+                            <p>
+                                太原｜高新开发区18号－1008室
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="zp_ye_jianjie">
+                    <div class="zp_ye_ms1">
+                        <div class="zpyms_bt">
+                            <div class="zpymsbt_tiao"></div>
+                            <div class="zpymsbt_yuan"></div>
+                            <div class="zpymsbt_zi">
+                                <span>企業</span>
+                                <h1>简介</h1>
+                            </div>
+                        </div>
+                        <div class="zpyms_neirong">
+                            <p>
+                                无需坐班，按时出稿，活儿好就是大神！ 
+                            </p>
+                            <p>
+                                我们年轻，有活力，是你在异乡的另一个家，有帅哥，有美女，有零食，就差你了，还不来？
+                            </p>
+                        </div>
+                    </div>
+                    <div class="zp_ye_ms1">
+                        <div class="zpyms_bt">
+                            <div class="zpymsbt_tiao"></div>
+                            <div class="zpymsbt_yuan"></div>
+                            <div class="zpymsbt_zi">
+                                <span>企業</span>
+                                <h1>介绍</h1>
+                            </div>
+                        </div>
+                        <div class="zpyms_neirong">
+                            <p>
+                                北京潜意识广告成立于2005年，专注广告创意设计与网媒互动为核心的品牌整合营销； 
+                            </p>
+                            <p>
+                                与多家世界级企业合作，包括： GE、腾讯、拜耳、星巴克、长江商学院、万达等；
+                            </p>
+                            <p>
+                                我们致力于缔造传统广告与网络媒体跨界融合的多元创意公司，用纯粹创意精神指导工作与生活，
+                            </p>
+                            <p>
+                                以激情奔放的思考实现欲望与理想。
+                            </p>
+                        </div>
+                        <div class="zpyms_neirong">
+                            <p>
+                                公司文化：我们始终以“改变人们的工作方式”为口号，自主研发企业各种应用。公司有数年的优秀的企业文化和严谨的技术研发氛围。现专注为企业提供基于公用云的各类企业应用服务。 
+                            </p>
+                            <br />
+                            <p>
+                                潜意识的事业、就是你的事业。我们期待优秀的你早日加入我们的团队，成为潜意识大家庭的一员，让你的才华早日在潜意识广阔的平台上放光彩。
+                            </p>
+                        </div>
+                        <div class="zpyms_img">
+                            <a href="##">
+                                <img src="img/zhaopin/zhaopin_06.png" alt="" />
+                            </a>
+                            <a href="##" class="datu">
+                                <img src="img/zhaopin/zhaopin_07.png" alt="" />
+                            </a>
+                            <a href="##">
+                                <img src="img/zhaopin/zhaopin_06.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                     <div class="zp_ye_ms1">
+                        <div class="zpyms_bt">
+                            <div class="zpymsbt_tiao"></div>
+                            <div class="zpymsbt_yuan"></div>
+                            <div class="zpymsbt_zi">
+                                <span>企業</span>
+                                <h1>网站</h1>
+                            </div>
+                        </div>
+                        <div class="zpyms_neirong">
+                            <a href="##">www.qianyishi.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="zp_ye_baodeli">
+                    <img src="img/zhaopin/team.png" class="zp_ye_baodeli_img" alt="" />
+                    <div class="zp_ye_bdl_top">
+                        <div class="zp_ye_bdl_top1">
+                            <img src="img/zhaopin/zhaopin_08.png" alt="" />
+                        </div>
+                        <div class="zp_ye_bdl_top2">
+                            <span class="zp_ye_bdl_top2_float zp_ye_bdl_t_span1">保得利</span>
+                            <div class="zp_ye_bdl_t_tu">
+                                <img src="img/zhaopin/xingxing.png"  alt="" />
+                            </div>
+                            <span class="zp_ye_bdl_top2_float zp_ye_bdl_t_span2">互联网</span>
+                            <span class="zp_ye_bdl_top2_float zp_ye_bdl_t_span3">APP</span>
+                            <span class="zp_ye_bdl_top2_float zp_ye_bdl_t_span4">客户端</span>
+                        </div>
+                        <div class="zp_ye_bdl_top3">
+                            <h3>保得利（北京）科技有限公司</h3>
+                        </div>
+                    </div>
+                    <div class="zp_ye_bdl_bottom">
+                        <div class="zp_ye_bdl_b_lei">
+                            <div class="zpybdlbl_L">
+                                <span></span>
+                                <h1>所属行业</h1>
+                            </div>
+                            <div class="zpybdlbl_R">
+                                <span>广告 / 公关 / 会展</span>
+                            </div>
+                        </div>
+                        <div class="zp_ye_bdl_b_lei">
+                            <div class="zpybdlbl_L">
+                                <span class="zpybdlbl_L_span1"></span>
+                                <h1>企业类型</h1>
+                            </div>
+                            <div class="zpybdlbl_R">
+                                <span>私营企业</span>
+                            </div>
+                        </div>
+                        <div class="zp_ye_bdl_b_lei">
+                            <div class="zpybdlbl_L">
+                                <span class="zpybdlbl_L_span2"></span>
+                                <h1>企业规模</h1>
+                            </div>
+                            <div class="zpybdlbl_R">
+                                <span>51-100人</span>
+                            </div>
+                        </div>
+                        <div class="zp_ye_bdl_b_lei">
+                            <div class="zpybdlbl_L">
+                                <span class="zpybdlbl_L_span3"></span>
+                                <h1>总部地址</h1>
+                            </div>
+                            <div class="zpybdlbl_R">
+                                <span>北京朝阳区百子湾路苹果社区南区1号楼B座1806室</span>
+                            </div>
+                        </div>
+                        <div class="zp_ye_bdl_b_lei">
+                            <div class="zpybdlbl_L">
+                                <span class="zpybdlbl_L_span4"></span>
+                                <h1>公司官网</h1>
+                            </div>
+                            <div class="zpybdlbl_R">
+                                <a href="##">www.qianyishi.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="zp_ye_pinglun">
+                    <div class="zp_ye_pl1">
+                        <div class="zpyms_bt">
+                            <div class="zpymsbt_tiao"></div>
+                            <div class="zpymsbt_yuan"></div>
+                            <div class="zpymsbt_zi">
+                                <span>詳細</span>
+                                <h1>评论</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="zp_ye_pl2">
+                        <div class="zp_ye_pl2_kp">
+                            <div class="zpypl2_kp_bian"></div>
+                            <div class="zpypl2_kp_top">
+                                <div class="zpypl2_kp_t_left">
+                                    <h1>UI设计师 [北京]</h1>
+                                </div>
+                                <div class="zpypl2_kp_t_right">
+                                    <span>2016-07-01 10:00</span>
+                                </div>
+                            </div>
+                            <div class="zpypl2_kp_bottom">
+                                <h1>8K-15K</h1>
+                                <span>经验3-5年/本科/全职</span>
+                            </div>
+                        </div>
+                        <div class="zp_ye_pl2_kp">
+                            <div class="zpypl2_kp_bian"></div>
+                            <div class="zpypl2_kp_top">
+                                <div class="zpypl2_kp_t_left">
+                                    <h1>UI设计师 [北京]</h1>
+                                </div>
+                                <div class="zpypl2_kp_t_right">
+                                    <span>2016-07-01 10:00</span>
+                                </div>
+                            </div>
+                            <div class="zpypl2_kp_bottom">
+                                <h1>8K-15K</h1>
+                                <span>经验3-5年/本科/全职</span>
+                            </div>
+                        </div>
+                        <div class="zp_ye_pl2_kp">
+                            <div class="zpypl2_kp_bian"></div>
+                            <div class="zpypl2_kp_top">
+                                <div class="zpypl2_kp_t_left">
+                                    <h1>UI设计师 [北京]</h1>
+                                </div>
+                                <div class="zpypl2_kp_t_right">
+                                    <span>2016-07-01 10:00</span>
+                                </div>
+                            </div>
+                            <div class="zpypl2_kp_bottom">
+                                <h1>8K-15K</h1>
+                                <span>经验3-5年/本科/全职</span>
+                            </div>
+                        </div>
+                        <div class="zp_ye_pl2_kp">
+                            <div class="zpypl2_kp_bian"></div>
+                            <div class="zpypl2_kp_top">
+                                <div class="zpypl2_kp_t_left">
+                                    <h1>UI设计师 [北京]</h1>
+                                </div>
+                                <div class="zpypl2_kp_t_right">
+                                    <span>2016-07-01 10:00</span>
+                                </div>
+                            </div>
+                            <div class="zpypl2_kp_bottom">
+                                <h1>8K-15K</h1>
+                                <span>经验3-5年/本科/全职</span>
+                            </div>
+                        </div>
+                        <div class="zp_ye_pl2_kp">
+                            <div class="zpypl2_kp_bian"></div>
+                            <div class="zpypl2_kp_top">
+                                <div class="zpypl2_kp_t_left">
+                                    <h1>UI设计师 [北京]</h1>
+                                </div>
+                                <div class="zpypl2_kp_t_right">
+                                    <span>2016-07-01 10:00</span>
+                                </div>
+                            </div>
+                            <div class="zpypl2_kp_bottom">
+                                <h1>8K-15K</h1>
+                                <span>经验3-5年/本科/全职</span>
+                            </div>
+                        </div>
+                        <div class="zp_ye_pl2_kp">
+                            <div class="zpypl2_kp_bian"></div>
+                            <div class="zpypl2_kp_top">
+                                <div class="zpypl2_kp_t_left">
+                                    <h1>UI设计师 [北京]</h1>
+                                </div>
+                                <div class="zpypl2_kp_t_right">
+                                    <span>2016-07-01 10:00</span>
+                                </div>
+                            </div>
+                            <div class="zpypl2_kp_bottom">
+                                <h1>8K-15K</h1>
+                                <span>经验3-5年/本科/全职</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="foot">
+                <div class="footleft">
+                    <img src="img/headfoot/5.png"/>
+                </div>
+                <div class="footmiddle">
+                    <div class="dianshang"></div>
+                    <div class="dianxia"></div>
+                    <div class="xian"></div>
+                    <div class="shang">商务合作&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;意见反馈&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    关于我们  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  联系我们  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  版权声明  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   隐私保护</div>
+                    <div class="xuxian">.................................................</div>
+                    <div class="zhong">ICP备14007358号-1 / 京公网安备11010802014104号 / Powered by @ 2008-2016 UI.CN</div>
+                    <div class="xia">
+                        <img src="img/headfoot/6.png" alt="" />
+                    </div>
+                </div>
+                <div class="footright"></div>
+            </div>
+        </div>
+        <div class="cedaohang">
+            <div class="ce-shang">
+                <a href=""></a>
+            </div>
+            <div class="ce-xia">
+                <a href=""><span>主页</span></a>
+                <a href=""><span></span></a>
+                <a href=""><span></span></a>
+                <a href=""><span></span></a>
+                <a href=""><span></span></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </div>
+    </body>
 </html>
