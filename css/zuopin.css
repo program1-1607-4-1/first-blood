@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.zuopin {
+  width: 1200px;
+  margin: 0 auto;
+  height: 439px;
+  background: #fff;
+}
+
+.zuopin .tu {
+  margin-bottom: 43px;
+}
+
+.zuopin .zuopinji {
+  height: 355px;
+  width: 1200px;
+}
+
+.zuopin .zuopinji .pic {
+  float: left;
+  margin-right: 28px;
+  width: 379px;
+  height: 100%;
+}
+
+.zuopin .zuopinji .pic .tu1 {
+  height: 267px;
+}
+
+.zuopin .zuopinji .pic .name {
+  height: 72px;
+  margin-top: 16px;
+  position: relative;
+}
+
+.zuopin .zuopinji .pic .name h1 {
+  font-size: 17px;
+  color: #3E3E3E;
+  padding: 0;
+}
+
+.zuopin .zuopinji .pic .name .xian {
+  height: 3px;
+  width: 100%;
+}
+
+.zuopin .zuopinji .pic .name .xian .block {
+  float: left;
+  width: 86px;
+  height: 1px;
+  background: #DEDEDE;
+}
+
+.zuopin .zuopinji .pic .name .xian .yellow {
+  float: left;
+  width: 17px;
+  height: 1px;
+  background: #F2BC14;
+}
+
+.zuopin .zuopinji .pic .name .wz {
+  font-size: 15px;
+  color: #3E3E3E;
+  margin-bottom: 10px;
+}
+
+.zuopin .zuopinji .pic .name .biao i {
+  background: url(../img/zuopinimg/biao.png);
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+}
+
+.zuopin .zuopinji .pic .name .biao span {
+  font-size: 13px;
+  color: #A1A1A1;
+}
+
+.zuopin .zuopinji .pic .name .biao .span {
+  margin-left: 5px;
+}
+
+.zuopin .zuopinji .pic .name .biao .xin {
+  background: url(../img/zuopinimg/xin.png);
+  width: 98px;
+  height: 16px;
+  display: inline-block;
+  margin-left: 24px;
+}
+
+.zuopin .zuopinji .pic .name .bofa {
+  background: url(../img/zuopinimg/bofa.png);
+  width: 78px;
+  height: 78px;
+  position: absolute;
+  top: 11px;
+  right: 14px;
+}
+
+.zuopin .zuopinji .last {
+  margin-right: 0;
+}
+
+.zuopin .zuopinji .last .name .bofa {
+  background: url(../img/zuopinimg/bofa1.png);
+}

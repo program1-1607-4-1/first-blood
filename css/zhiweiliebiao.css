@@ -303,11 +303,13 @@ body {
 
 .qiye {
   padding-top: 74px;
-  height: 343px;
+  height: 373px;
+  margin-bottom: 145px;
 }
 
 .qiye .tujian {
   margin-top: 63px;
+  height: 280px;
 }
 
 .qiye .tujian .tujianqiye {
@@ -390,4 +392,38 @@ body {
 .hid .more a span {
   font-size: 10px;
   color: #fff;
+}
+
+.cenav {
+  width: 49px;
+  height: 998px;
+  background: #242629;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.cenav .cenav1 {
+  width: 35px;
+  height: 469px;
+  margin: 0 auto;
+}
+
+.cenav .cenav1 li {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 45px;
+}
+
+.cenav .cenav1 li a {
+  width: 35px;
+  display: block;
+  height: 35px;
+  border-radius: 50%;
+  background: #2A2E34;
+}
+
+.cenav .cenav1 li .first {
+  background: #10C8F0;
 }

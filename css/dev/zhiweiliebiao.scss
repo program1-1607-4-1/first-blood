@@ -295,9 +295,11 @@ body{
 }
 .qiye{
 	padding-top:74px;
-	height:343px;
+	height:373px;
+	margin-bottom:145px;
 	.tujian{
 		margin-top:63px;
+		height:280px;
 		.tujianqiye{
 			margin-right:29px;
 			border-radius:10px;
@@ -375,6 +377,35 @@ body{
 			span{
 				font-size:10px;
 				color:#fff;
+			}
+		}
+	}
+}
+.cenav{
+	width:49px;
+	height:998px;
+	background:#242629;
+	position:fixed;
+	top:0;
+	right:0;
+	z-index:1000;
+	.cenav1{
+		width:35px;
+		height:469px;
+		margin:0 auto;
+		li{
+			width:35px;
+			height:35px;
+			margin-bottom:45px;
+			a{
+				width:35px;
+				display:block;
+				height:35px;
+				border-radius:50%;
+				background:#2A2E34;
+			}
+			.first{
+				background:#10C8F0;
 			}
 		}
 	}
