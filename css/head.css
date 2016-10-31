@@ -6,14 +6,17 @@
   list-style: none;
   box-sizing: border-box;
   font-family: "微软雅黑";
-  color: #929292; }
+  color: #929292;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 img {
   border: 0;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 /*上下居中:@include tb*/
 /*左右居中: @include lr*/
@@ -22,27 +25,28 @@ img {
 /*宽高:@include wh($w,$h)*/
 /*调试所用边框：@include border*/
 /*图片居中：@include img-center*/
-body {
-  height: 3000px; }
-
 #head {
   width: 100%;
   height: 102px;
   background: #13587F;
-  position: absolute; }
+  position: relative;
+  z-index: 3;
+}
 
 .headleft {
   width: 205px;
   height: 100%;
   background: red;
-  float: left; }
+  float: left;
+}
 
 .headmiddle {
   height: 100%;
   border-color: green;
   float: left;
   margin-left: 27px;
-  padding-top: 15px; }
+  padding-top: 15px;
+}
 
 .headmiddle ul {
   width: 175px;
@@ -50,44 +54,52 @@ body {
   float: left;
   padding: 10px;
   font-size: 15px;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+}
 
 .headmiddle ul li a {
-  color: #FFFFFF; }
+  color: #FFFFFF;
+}
 
 .headmiddle ul li img {
   display: block;
   padding-top: 5px;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+}
 
 .headright {
   height: 100%;
   float: left;
   margin-left: 0px;
   padding-top: 30px;
-  position: relative; }
+  position: relative;
+}
 
 .headright .headsou {
   width: 300px;
   height: 35px;
   float: left;
   border: 2px solid #B8C3CE;
-  border-radius: 50px; }
+  border-radius: 50px;
+}
 
 .headright .headsou .dian {
   float: left;
   margin-top: 5px;
   margin-left: 10px;
-  padding-right: 15px; }
+  padding-right: 15px;
+}
 
 .headright .headsou .da {
   float: right;
   margin-top: 3px;
-  margin-right: 4px; }
+  margin-right: 4px;
+}
 
 .headright .headsou #zhen {
   width: 130px;
   height: 36px;
   float: left;
   border: 0;
-  background: none; }
+  background: none;
+}
