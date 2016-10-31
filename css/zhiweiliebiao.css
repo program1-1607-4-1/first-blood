@@ -117,6 +117,7 @@ body {
   background-image: url("../img/zwlbimg/comimg/1.jpg");
   width: 100%;
   height: 834px;
+  margin-bottom: 149px;
   backgroud-size: cover;
   position: relative;
 }
@@ -133,17 +134,24 @@ body {
   position: absolute;
   bottom: 0;
   left: 235px;
+  left: 235px;
 }
 
-.seal .turn .img {
-  display: block;
+.seal .turn .turn_box {
+  width: 100%;
+  height: 100%;
+}
+
+.seal .turn .turn_box .list {
   position: absolute;
   left: 0;
   top: 0;
+  width: 1200px;
+  opacity: 0;
 }
 
-.seal .turn .list {
-  width: 1200px;
+.seal .turn .turn_box .list_first {
+  opacity: 1;
 }
 
 .turn .leftside1 {
@@ -278,8 +286,8 @@ body {
 
 .turn .blue {
   position: absolute;
-  left: 121px;
-  bottom: 26px;
+  left: -100px;
+  bottom: 309px;
 }
 
 .turn .match {
@@ -292,9 +300,42 @@ body {
 
 .turn .match .fast {
   float: left;
-  width: 231px;
-  height: 199px;
-  background: url("../img/zwlbimg/comimg/13.png");
+  width: 1200px;
+  height: 232px;
+  background: url("../img/zwlbimg/zhiwei.png") no-repeat;
+}
+
+.turn .match .fast .fast1 {
+  width: 1150px;
+  height: 140px;
+  margin-left: 25px;
+  morgin: 0 auto;
+  background: url("../img/zwlbimg/shang.png") no-repeat;
+  background-position: center bottom;
+  border-bottom: 1px dashed #CBCBCB;
+}
+
+.turn .match .fast .zhong i {
+  background: url("../img/zwlbimg/7.png") no-repeat;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin-left: 40px;
+  vertical-align: middle;
+}
+
+.turn .match .fast .zhong .zhong1 {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.turn .match .fast .zhong .riqi {
+  display: inline-block;
+  width: 110px;
+  height: 35px;
+  margin-left: 35px;
+  vertical-align: middle;
+  background: url("../img/zwlbimg/riqi.jpg") no-repeat;
 }
 
 .turn .match .fast .overcir {
@@ -367,6 +408,7 @@ body {
 .sousuo {
   overflow: hidden;
   height: 80px;
+  margin-top: 150px;
 }
 
 .sousuo .text {
