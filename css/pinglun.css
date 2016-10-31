@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+#pinglun {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 7px; }
+  #pinglun .content {
+    width: 100%px;
+    overflow: hidden;
+    padding-top: 43px;
+    padding-left: 14px; }
+    #pinglun .content .dived {
+      position: relative;
+      width: 100%px; }
+      #pinglun .content .dived h3 {
+        width: 100%;
+        border-bottom: 1px solid #EAEAEA; }
+      #pinglun .content .dived img {
+        position: absolute;
+        bottom: 0;
+        left: 25px; }
+    #pinglun .content h4 {
+      width: 100%;
+      font-size: 14px;
+      color: #6E6E6E;
+      float: right;
+      font-weight: 400;
+      margin-top: 20px;
+      margin-bottom: 5px;
+      overflow: hidden;
+      text-align: right; }
+    #pinglun .content .xiangqing {
+      width: 100%;
+      padding-left: 25px;
+      overflow: hidden;
+      margin-bottom: 50px; }
+      #pinglun .content .xiangqing .touxiang {
+        float: left; }
+      #pinglun .content .xiangqing .kuang {
+        width: 1013px;
+        height: 185px;
+        border: 1px solid #EAEAEA;
+        border-radius: 5px;
+        float: right;
+        padding: 20px; }
+        #pinglun .content .xiangqing .kuang span {
+          font-size: 18px;
+          color: #6C6C6C; }
+      #pinglun .content .xiangqing .user {
+        width: 1013px;
+        margin-top: 10px;
+        float: right;
+        overflow: hidden; }
+        #pinglun .content .xiangqing .user .biaoqing {
+          margin-left: 20px;
+          float: left; }
+          #pinglun .content .xiangqing .user .biaoqing a {
+            display: block;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background: #5DDE9E;
+            float: left; }
+          #pinglun .content .xiangqing .user .biaoqing span {
+            margin-left: 10px;
+            font-size: 12px;
+            color: #6E6E6E; }
+        #pinglun .content .xiangqing .user .chongzhi-ping {
+          float: right; }
+          #pinglun .content .xiangqing .user .chongzhi-ping img {
+            margin-left: 50px; }
+    #pinglun .content .ping-first {
+      margin-top: 35px;
+      padding-left: 20px;
+      overflow: hidden;
+      border-bottom: 1px solid #E5E5E5; }
+      #pinglun .content .ping-first .zhaopian {
+        float: left;
+        margin-top: 10px;
+        border-radius: 50%; }
+      #pinglun .content .ping-first .ping-content {
+        width: 977px;
+        float: right;
+        line-height: 20px; }
+        #pinglun .content .ping-first .ping-content h3 {
+          font-size: 14px;
+          font-weight: 400;
+          float: left; }
+        #pinglun .content .ping-first .ping-content span {
+          font-size: 12px;
+          color: #6E6E6E;
+          margin-left: 20px; }
+        #pinglun .content .ping-first .ping-content .floor {
+          float: right;
+          font-size: 20px; }
+        #pinglun .content .ping-first .ping-content p {
+          margin-top: 10px;
+          font-size: 14px;
+          color: #979797; }
+        #pinglun .content .ping-first .ping-content .huifu {
+          margin: 20px 0;
+          margin-right: 50px;
+          font-size: 14px;
+          float: right; }
+          #pinglun .content .ping-first .ping-content .huifu a {
+            display: block;
+            color: #90E3F6;
+            margin-left: 50px;
+            float: left; }
+          #pinglun .content .ping-first .ping-content .huifu .shouchang {
+            padding-left: 25px;
+            background: url(../img/img/xin.jpg) no-repeat;
+            background-position-y: 3px; }
+    #pinglun .content .ping-two {
+      margin-top: 35px;
+      padding-left: 20px;
+      overflow: hidden;
+      border-bottom: 1px solid #E5E5E5; }
+      #pinglun .content .ping-two .zhaopian {
+        float: left;
+        margin-top: 10px;
+        border-radius: 50%; }
+      #pinglun .content .ping-two .ping-content {
+        width: 977px;
+        float: right;
+        line-height: 20px; }
+        #pinglun .content .ping-two .ping-content h3 {
+          font-size: 14px;
+          font-weight: 400;
+          float: left; }
+        #pinglun .content .ping-two .ping-content span {
+          font-size: 12px;
+          color: #6E6E6E;
+          margin-left: 20px; }
+        #pinglun .content .ping-two .ping-content .yinyongneirong {
+          width: 373px;
+          height: 87px;
+          border: 1px solid #E5E5E5;
+          border-radius: 8px; }
+          #pinglun .content .ping-two .ping-content .yinyongneirong span {
+            float: left; }
+          #pinglun .content .ping-two .ping-content .yinyongneirong .pp {
+            width: 250px;
+            height: 53px;
+            float: left;
+            font-size: 14px;
+            margin-left: 5px; }
+            #pinglun .content .ping-two .ping-content .yinyongneirong .pp p {
+              margin: 0; }
+        #pinglun .content .ping-two .ping-content .floor {
+          float: right;
+          font-size: 20px; }
+        #pinglun .content .ping-two .ping-content p {
+          margin-top: 10px;
+          font-size: 14px;
+          color: #979797; }
+        #pinglun .content .ping-two .ping-content .huifu {
+          margin: 20px 0;
+          margin-right: 50px;
+          font-size: 14px;
+          float: right; }
+          #pinglun .content .ping-two .ping-content .huifu a {
+            display: block;
+            color: #90E3F6;
+            margin-left: 50px;
+            float: left; }
+          #pinglun .content .ping-two .ping-content .huifu .shouchang {
+            padding-left: 25px;
+            background: url(../img/img/xin.jpg) no-repeat;
+            background-position-y: 3px; }
+    #pinglun .content .ping-three {
+      margin-top: 35px;
+      padding-left: 20px;
+      overflow: hidden;
+      border-bottom: 1px solid #E5E5E5; }
+      #pinglun .content .ping-three .zhaopian {
+        float: left;
+        margin-top: 10px;
+        border-radius: 50%; }
+      #pinglun .content .ping-three .ping-content {
+        width: 977px;
+        float: right;
+        line-height: 20px; }
+        #pinglun .content .ping-three .ping-content h3 {
+          font-size: 14px;
+          font-weight: 400;
+          float: left; }
+        #pinglun .content .ping-three .ping-content span {
+          font-size: 12px;
+          color: #6E6E6E;
+          margin-left: 20px; }
+        #pinglun .content .ping-three .ping-content .floor {
+          float: right;
+          font-size: 20px; }
+        #pinglun .content .ping-three .ping-content p {
+          margin-top: 10px;
+          font-size: 14px;
+          color: #979797; }
+        #pinglun .content .ping-three .ping-content .huifu {
+          margin: 20px 0;
+          margin-right: 50px;
+          font-size: 14px;
+          float: right; }
+          #pinglun .content .ping-three .ping-content .huifu a {
+            display: block;
+            color: #90E3F6;
+            margin-left: 50px;
+            float: left; }
+          #pinglun .content .ping-three .ping-content .huifu .shouchang {
+            padding-left: 25px;
+            background: url(../img/img/xin.jpg) no-repeat;
+            background-position-y: 3px; }
+        #pinglun .content .ping-three .ping-content .f4 {
+          margin-top: 15px;
+          overflow: hidden; }
+          #pinglun .content .ping-three .ping-content .f4 .zhaopian {
+            float: left; }
+          #pinglun .content .ping-three .ping-content .f4 .f41 {
+            width: 150px;
+            float: left; }
+            #pinglun .content .ping-three .ping-content .f4 .f41 span {
+              font-size: 15px;
+              color: #080808; }
+            #pinglun .content .ping-three .ping-content .f4 .f41 a {
+              margin-top: 5px;
+              margin-left: 20px;
+              font-weight: normal;
+              color: BBBBBB;
+              font-size: 12px; }
+          #pinglun .content .ping-three .ping-content .f4 .pp {
+            width: 727px;
+            float: right; }
+    #pinglun .content .autor {
+      float: right;
+      margin-top: 20px; }
+    #pinglun .content .pl {
+      margin: 0 auto;
+      margin-top: 150px;
+      display: block;
+      width: 450px;
+      height: 57px;
+      background: #F0C310;
+      border-radius: 35px;
+      text-align: center;
+      line-height: 57px; }
+      #pinglun .content .pl p {
+        color: #fff;
+        font-size: 20px; }
