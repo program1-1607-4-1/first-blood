@@ -16,11 +16,95 @@ body{
 input,select,textarea{
     border: 0;
 }
+
+.headda{
+     width: 100%;
+     background:#13587F;
+     height: 102px;
+    #head{
+        width: $neikuan;
+        height: 102px;
+        background:#13587F;
+        margin: 0 auto;
+        .headleft{
+            width: 205px;
+            height: 100%;
+            background: red;
+            float:left;
+            margin: {
+                left:-206px ;
+            };
+        }
+        .headmiddle{
+            height: 100%;
+            border-color: green;
+            float: left;
+            margin-left: 27px;
+            padding-top: 15px;
+            ul{
+                width: 175px;
+                height: 100%;
+                float: left;
+                padding: 10px;
+                font-size: 15px;
+                color:#FFFFFF;
+                li{
+                    a{
+                        color: #FFFFFF;
+                    }
+                    img{
+                        display: block;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                    }  
+                }
+            }
+        }
+        .headright{
+            height: 100%;
+            float: right;
+            margin-left: 0px;
+            padding-top: 30px;
+            position: relative;
+            .headsou{
+                width: 300px;
+                height: 35px;
+                float:left;
+                border:2px solid #B8C3CE;
+                border-radius: 50px;
+                .dian{
+  
+                    float: left;
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    padding-right: 15px;
+                }
+                .da{
+                    float: right;
+                    margin-top: 3px;
+                    margin-right: 4px;
+                }
+                #zhen{
+                    width:130px;
+                    height: 36px;
+                    float: left;
+                    border: 0;
+                    background: none;
+                }
+            }
+        }
+    }
+}
+
+
+
+
 .grxx-text{
-    @include wh($neikuan,1100px);
+    @include wh(1120px,1100px);
     background: #fff;
-    @include lr;
-    margin-top: 20px;
+    margin: 0 auto;
+    margin-top:8px;
+    padding-top: 20px;
     .text-nei{
         margin-left:175px;
         margin-right:175px;
@@ -137,10 +221,95 @@ input,select,textarea{
                  margin-right: 65px;
              }
         }
-        
-        
-        
-        
-        
     }
+}
+.footer{
+    
+    @include wh(100%,230px);
+    background: #2D2D2D;
+    .foot{
+        width: 1200px;
+        height: 230px;
+        margin: 0 auto;
+        background: #2D2D2D;
+        .footleft{
+            float: left;
+            padding: {
+                left: 60px;
+                top: 76px;
+            };
+        }
+        .footmiddle{
+            height: 100%;
+            width:698px;
+            float: left;
+           
+            margin: {
+                left: 64px;
+                top: 23px;
+            };
+            color: #A7A5A5;
+            .dianshang{
+                width: 3px;
+                height: 3px;
+                border-radius: 50%;
+                position: absolute;
+                top:55px;
+                left:49px;
+                background: #B4B4B4;
+            }
+            .dianxia{
+                width: 3px;
+                height: 3px;
+                border-radius: 50%;
+                position: absolute;
+                top:156px;
+                left:49px;
+                background: #B4B4B4;
+            }
+            .xian{
+                width: 1px;
+                height: 100px;
+                position:absolute;
+                top: 57px;
+                left:50px;
+                background: #4D4D4D;
+                
+            }
+            .shang{
+                position: absolute;
+                top: 55px;
+                left: 90px;
+                font-size: 14px;
+            }
+            .xuxian{
+                width: 190px;
+                height: 2px;
+                position: absolute;
+                top:70px;
+                left:90px ;   
+            }
+            .zhong{
+                position: absolute;
+                top: 96px;
+                left:90px;
+                font-size: 13px;
+            }
+            .xia{
+                position: absolute;
+                left:88px;
+                top:125px;
+            }
+        }
+        .footright{
+            float: right;
+            height: 107px;
+            width: 107px;
+            background: #24B0FF;
+            margin: {
+                top: 76px;
+            };
+        }
+    }
+    
 }

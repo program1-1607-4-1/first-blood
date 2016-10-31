@@ -1,0 +1,165 @@
+@charset "UTF-8";
+* {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+  color: #929292; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  vertical-align: middle; }
+
+/*上下居中:@include tb*/
+/*左右居中: @include lr*/
+/*居中:@include center*/
+/*圆:@include yuan*/
+/*宽高:@include wh($w,$h)*/
+/*调试所用边框：@include border*/
+/*图片居中：@include img-center*/
+.jianli {
+  width: 1920px;
+  height: 4800px;
+  background: #FFFFFF; }
+  .jianli .content {
+    width: 1200px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto; }
+    .jianli .content .title {
+      width: 1200px;
+      height: 58px;
+      margin-top: 140px; }
+      .jianli .content .title .topborder {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 986px;
+        height: 1px;
+        background: #B9B9B9; }
+      .jianli .content .title img {
+        margin-top: 18px;
+        display: block;
+        float: left; }
+      .jianli .content .title p {
+        display: block;
+        float: left;
+        margin-top: 10px;
+        margin-left: 3px;
+        font-size: 20px;
+        line-height: 58px; }
+      .jianli .content .title .right {
+        line-height: 58px;
+        float: right;
+        font-size: 14px; }
+        .jianli .content .title .right a {
+          color: #36A3FE; }
+        .jianli .content .title .right img {
+          margin-top: 18px; }
+    .jianli .content .shejizhongjie {
+      margin-top: 100px;
+      width: 1200px;
+      height: 90px;
+      border-bottom: 1px dashed #B9B9B9; }
+      .jianli .content .shejizhongjie .circle1 {
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: #B9B9B9; }
+      .jianli .content .shejizhongjie .circle2 {
+        position: absolute;
+        right: 0;
+        bottom: -2px;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: #B9B9B9; }
+      .jianli .content .shejizhongjie span {
+        display: block;
+        width: 180px;
+        height: 22px;
+        color: #000;
+        font-size: 18px; }
+      .jianli .content .shejizhongjie img {
+        margin-top: 20px; }
+      .jianli .content .shejizhongjie .right {
+        position: absolute;
+        right: 0;
+        top: -26px; }
+    .jianli .content .firstcontent {
+      width: 1200px;
+      height: 365px;
+      margin-top: 40px; }
+      .jianli .content .firstcontent .left {
+        float: left; }
+      .jianli .content .firstcontent .right {
+        width: 573px;
+        height: 351px;
+        float: left; }
+        .jianli .content .firstcontent .right img {
+          margin-left: 10px;
+          margin-top: 25px; }
+        .jianli .content .firstcontent .right .rightwz {
+          font-size: 14px; }
+          .jianli .content .firstcontent .right .rightwz p {
+            margin-top: 20px;
+            margin-left: 50px; }
+    .jianli .content .say {
+      margin-left: -15px;
+      margin-top: 70px; }
+    .jianli .content .xianborder {
+      width: 1200px;
+      border: 1px dashed #B9B9B9;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+    .jianli .content .threecontent {
+      width: 1200px;
+      height: 643px;
+      background: #F4F4F4; }
+      .jianli .content .threecontent .title3 {
+        width: 210px;
+        height: 40px;
+        margin-left: 47px; }
+        .jianli .content .threecontent .title3 img {
+          margin-top: 20px; }
+      .jianli .content .threecontent .content3 {
+        width: 210px;
+        height: 40px;
+        margin-left: 47px; }
+        .jianli .content .threecontent .content3 img {
+          margin-top: 40px; }
+      .jianli .content .threecontent .rightwz {
+        width: 884px;
+        height: 190px;
+        font-size: 14px;
+        margin-left: 273px; }
+        .jianli .content .threecontent .rightwz p {
+          margin-top: 20px; }
+      .jianli .content .threecontent .imgs {
+        margin-left: 700px; }
+    .jianli .content .fanye {
+      width: 1200px;
+      height: 50px;
+      line-height: 50px;
+      border-bottom: 1px solid #DEDEDE;
+      border-top: 1px solid #DEDEDE;
+      margin-bottom: 50px;
+      margin-top: 50px; }
+      .jianli .content .fanye .left {
+        float: left; }
+        .jianli .content .fanye .left p {
+          float: left; }
+      .jianli .content .fanye .right {
+        float: right; }
+        .jianli .content .fanye .right p {
+          float: left; }
