@@ -6,7 +6,6 @@
   list-style: none;
   box-sizing: border-box;
   font-family: "微软雅黑";
-  color: #929292;
 }
 
 a {
@@ -27,6 +26,336 @@ img {
 /*图片居中：@include img-center*/
 body {
   background: #F4F4F4;
+}
+
+.headda {
+  width: 100%;
+  background: #13587F;
+  height: 102px;
+}
+
+.headda #head {
+  width: 1200px;
+  height: 102px;
+  background: #13587F;
+  margin: 0 auto;
+}
+
+.headda #head .headleft {
+  width: 205px;
+  height: 100%;
+  background: red;
+  float: left;
+  margin-left: -206px;
+}
+
+.headda #head .headmiddle {
+  height: 100%;
+  border-color: green;
+  float: left;
+  margin-left: 27px;
+  padding-top: 15px;
+}
+
+.headda #head .headmiddle ul {
+  width: 175px;
+  height: 100%;
+  float: left;
+  padding: 10px;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.headda #head .headmiddle ul li a {
+  color: #FFFFFF;
+}
+
+.headda #head .headmiddle ul li img {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.headda #head .headright {
+  height: 100%;
+  float: right;
+  margin-left: 0px;
+  padding-top: 30px;
+  position: relative;
+}
+
+.headda #head .headright .headsou {
+  width: 300px;
+  height: 35px;
+  float: left;
+  border: 2px solid #B8C3CE;
+  border-radius: 50px;
+}
+
+.headda #head .headright .headsou .dian {
+  float: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding-right: 15px;
+}
+
+.headda #head .headright .headsou .da {
+  float: right;
+  margin-top: 3px;
+  margin-right: 4px;
+}
+
+.headda #head .headright .headsou #zhen {
+  width: 130px;
+  height: 36px;
+  float: left;
+  border: 0;
+  background: none;
+}
+
+.seal {
+  background-image: url("../img/zwlbimg/comimg/1.jpg");
+  width: 100%;
+  height: 834px;
+  backgroud-size: cover;
+  position: relative;
+}
+
+.seal .gray {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.seal .turn {
+  width: 1200px;
+  height: 652px;
+  position: absolute;
+  bottom: 0;
+  left: 235px;
+}
+
+.seal .turn .img {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.seal .turn .list {
+  width: 1200px;
+}
+
+.turn .leftside1 {
+  width: 166px;
+  height: 166px;
+  position: absolute;
+  left: -120px;
+  bottom: 140px;
+  background: rgba(143, 143, 76, 0.6);
+}
+
+.turn .leftside2 {
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  left: -152px;
+  bottom: 272px;
+  background: rgba(143, 143, 76, 0.6);
+}
+
+.turn .rightside {
+  width: 73px;
+  height: 482px;
+  position: absolute;
+  right: -73px;
+  bottom: 54px;
+  background: rgba(21, 122, 106, 0.8);
+}
+
+.turn .rightside .inst {
+  width: 120px;
+  height: 240px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  bottom: 64px;
+  background: url("../img/zwlbimg/comimg/11.png");
+}
+
+.turn .rightside .inst ul {
+  margin-top: 13px;
+  height: 120px;
+  transform: rotate(180deg);
+}
+
+.turn .rightside .inst li {
+  height: 30px;
+}
+
+.turn .rightside .inst li .cir {
+  margin-left: 79px;
+  border: 2px solid #fff;
+  background: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.turn .rightside .inst li .cirfir {
+  background: #F0C30F;
+}
+
+.turn .rightside .inst .circle:hover {
+  background: #F0C30F;
+}
+
+.turn .rightside .inst .lead {
+  width: 60px;
+  height: 24px;
+  position: absolute;
+  left: 56px;
+  bottom: 104px;
+}
+
+.turn .lead {
+  overflow: hidden;
+  color: #fff;
+  font-family: "微软雅黑";
+}
+
+.turn .lead .slid {
+  font-size: 17px;
+  float: left;
+  height: 24px;
+  width: 20px;
+}
+
+.turn .lead .slid .num {
+  height: 100%;
+  position: absolute;
+  top: 24px;
+  left: 0;
+}
+
+.turn .lead .slid .numfir {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.turn .lead .fix {
+  font-size: 13px;
+  float: left;
+  top: 3px;
+  left: 0;
+}
+
+.turn .click {
+  height: 37px;
+  width: 100px;
+  background: #fff;
+  position: absolute;
+  left: -20px;
+  bottom: 37px;
+  border-radius: 37px;
+  color: #F3CF43;
+  font-size: 24px;
+}
+
+.turn .click .left {
+  float: left;
+  left: 40px;
+  top: 6px;
+}
+
+.turn .click .right {
+  float: left;
+  left: 50px;
+  top: 6px;
+}
+
+.turn .blue {
+  position: absolute;
+  left: 121px;
+  bottom: 26px;
+}
+
+.turn .match {
+  position: absolute;
+  left: 118px;
+  bottom: -98px;
+  width: 1202px;
+  height: 191px;
+}
+
+.turn .match .fast {
+  float: left;
+  width: 231px;
+  height: 199px;
+  background: url("../img/zwlbimg/comimg/13.png");
+}
+
+.turn .match .fast .overcir {
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  border: 1px solid #234C6A;
+  position: absolute;
+  top: -15px;
+  left: 0;
+}
+
+.turn .match .fast .overcir .rotate {
+  height: 186px;
+  width: 186px;
+  background: #46D4F3;
+  border-radius: 50%;
+  border-bottom: 93px solid #3AA5C5;
+  margin: 17px auto;
+  transition: all 1s linear;
+  transform: rotate(-45deg);
+}
+
+.turn .match .fast .overcir .rotate:hover {
+  transform: rotate(-405deg);
+}
+
+.turn .match .cover {
+  height: 132px;
+  width: 132px;
+  border-radius: 50%;
+  background: #FFF;
+  position: absolute;
+  top: 48px;
+  left: 48px;
+}
+
+.turn .match .cover .wenzi {
+  font-size: 17px;
+  color: #01254D;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.turn .match .cover .eng {
+  font-size: 8px;
+  color: #01254D;
+  text-align: center;
+}
+
+.turn .match .sousuo {
+  float: left;
+  width: 971px;
+  height: 199px;
+  background: url("../img/zwlbimg/comimg/14.png");
+}
+
+.turn .match .sousuo .box {
+  height: 80px;
+  width: 850px;
+  margin-left: 45px;
 }
 
 .body {
@@ -426,4 +755,97 @@ body {
 
 .cenav .cenav1 li .first {
   background: #10C8F0;
+}
+
+.footer {
+  width: 100%;
+  height: 230px;
+  background: #2D2D2D;
+}
+
+.footer .foot {
+  width: 1200px;
+  height: 230px;
+  margin: 0 auto;
+  background: #2D2D2D;
+}
+
+.footer .foot .footleft {
+  float: left;
+  padding-left: 60px;
+  padding-top: 76px;
+}
+
+.footer .foot .footmiddle {
+  height: 100%;
+  width: 698px;
+  float: left;
+  margin-left: 64px;
+  margin-top: 23px;
+  color: #A7A5A5;
+}
+
+.footer .foot .footmiddle .dianshang {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  position: absolute;
+  top: 55px;
+  left: 49px;
+  background: #B4B4B4;
+}
+
+.footer .foot .footmiddle .dianxia {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  position: absolute;
+  top: 156px;
+  left: 49px;
+  background: #B4B4B4;
+}
+
+.footer .foot .footmiddle .xian {
+  width: 1px;
+  height: 100px;
+  position: absolute;
+  top: 57px;
+  left: 50px;
+  background: #4D4D4D;
+}
+
+.footer .foot .footmiddle .shang {
+  position: absolute;
+  top: 55px;
+  left: 90px;
+  font-size: 14px;
+}
+
+.footer .foot .footmiddle .xuxian {
+  width: 190px;
+  height: 2px;
+  position: absolute;
+  top: 70px;
+  left: 90px;
+}
+
+.footer .foot .footmiddle .zhong {
+  position: absolute;
+  top: 96px;
+  left: 90px;
+  font-size: 13px;
+}
+
+.footer .foot .footmiddle .xia {
+  position: absolute;
+  left: 88px;
+  top: 125px;
+}
+
+.footer .foot .footright {
+  float: right;
+  height: 107px;
+  width: 107px;
+  background: #24B0FF;
+  margin-top: 76px;
 }
